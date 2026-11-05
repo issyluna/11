@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数据库结构 · INSARAG Hub</title>
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <main class="page">
+    <div class="container">
+      <div class="page-head">
+        <div class="title-wrap">
+          <div class="page-kicker">KNOWLEDGE BASE SCHEMA</div>
+          <h1>数据库结构</h1>
+          <p>insarag.db 是整站唯一的事实来源：新闻、平行语料、术语与向量切片共处一库。左侧选择数据表，右侧查看字段定义、建表语句、索引与表间关系。</p>
+        </div>
+        <span class="status-pill"><i></i> SQLite · WAL</span>
+      </div>
+
+      <div class="stat-strip">
+        <div class="stat-box blue"><b id="d-tables">—</b><span>数据表</span></div>
+        <div class="stat-box green"><b id="d-rows">—</b><span>数据总行数</span></div>
+        <div class="stat-box gold"><b id="d-size">—</b><span>库文件大小</span></div>
+        <div class="stat-box"><b id="d-vec">—</b><span>向量覆盖率</span></div>
+      </div>
+
+      <div class="card card-pad">
+        <div class="db-grid">
+          <aside>
+            <h3 style="font-size:12px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;margin-bottom:10px">数据表 · Tables</h3>
+            <div class="db-table-list" id="db-table-list"><div class="skeleton" style="height:56px"></div></div>
+            <h3 style="font-size:12px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;margin:18px 0 6px">表间关系 · Relations</h3>
+            <div class="card card-pad" style="background:rgba(8,17,33,.5)" id="db-relations"></div>
+          </aside>
+
+          <section>
+            <div class="preview-head" style="align-items:flex-start">
+              <div>
+                <h2 id="db-title" style="font-size:18px">—</h2>
+                <div class="tiny muted" id="db-subtitle"></div>
+              </div>
+              <span class="badge badge-news" id="db-count">—</span>
+            </div>
+
+            <div class="tabs" id="db-tabs" style="margin-top:12px">
+              <button class="tab active" data-tab="fields">字段定义</button>
+              <button class="tab" data-tab="ddl">建表语句</button>
+              <button class="tab" data-tab="indexes">索引</button>
+              <button class="tab" data-tab="vector">向量状态</button>
+            </div>
+
+            <div class="tab-panel active" data-panel="fields">
+              <div class="table-wrap">
+                <table class="data">
+                  <thead><tr><th>字段</th><th>类型</th><th>约束</th><th>说明</th></tr></thead>
+                  <tbody id="db-fields"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="tab-panel" data-panel="ddl">
+              <div class="json-view" id="db-ddl" style="max-height:520px"></div>
+            </div>
+
+            <div class="tab-panel" data-panel="indexes">
+              <div class="table-wrap">
+                <table class="data">
+                  <thead><tr><th>索引名</th><th>字段</th><th>唯一</th></tr></thead>
+                  <tbody id="db-indexes"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="tab-panel" data-panel="vector">
+              <div class="meta-grid" id="db-vector"></div>
+              <div class="tiny muted" style="margin-top:12px;line-height:1.9">
+                向量由智谱 <b>embedding-3</b> 生成，维度 1024，以 JSON 数组存于 <span class="mono">chunks.embedding</span>。
+                检索时对问题向量与全部切片向量逐一计算余弦相似度，再按 新闻 / 语料 / 术语 三类配额取 Top-K，拼装为 Deepseek 的上下文。
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="app-footer"></div>
+  <script src="/js/ui.js"></script>
+  <script src="/js/database.js"></script>
+</body>
+</html>

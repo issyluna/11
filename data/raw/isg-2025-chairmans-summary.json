@@ -1,0 +1,215 @@
+{
+  "id": 15444,
+  "date": "2025-06-05T13:23:33",
+  "date_gmt": "2025-06-05T13:23:33",
+  "guid": {
+    "rendered": "https://insarag.org/?p=15444"
+  },
+  "modified": "2025-06-05T13:24:58",
+  "modified_gmt": "2025-06-05T13:24:58",
+  "slug": "isg-2025-chairmans-summary",
+  "status": "publish",
+  "type": "post",
+  "link": "https://insarag.org/global-structures/global-news/isg-2025-chairmans-summary/",
+  "title": {
+    "rendered": "ISG 2025 Chairman`s Summary"
+  },
+  "content": {
+    "rendered": "\n<p>The INSARAG Secretariat would like to extend our sincere appreciation to all participants of the 2025 INSARAG Steering Group (ISG) Meeting. Your active engagement, valuable insights, and continued commitment to strengthening international urban search and rescue (USAR) coordination have made this year’s meeting a success.</p>\n\n\n\n<div style=\"height:3px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n\n\n\n<p>The<strong> ISG 2025 Chairman’s Summary</strong> is now available. This document captures the key discussions and decisions agreed upon during the meeting. The ISG 2025 Chairman`s summary can also be found together with previous years Chairman`s summaries <a href=\"https://insarag.org/global-structures/steering-group/insarag-steering-group/\">here</a>.</p>\n\n\n\n<div style=\"height:9px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n\n\n\n<p>Thank you once again for your contributions and continued support of the INSARAG network.</p>\n\n\n\n<div style=\"height:25px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n\n\n\n<div data-wp-interactive=\"core/file\" class=\"wp-block-file\"><object data-wp-bind--hidden=\"!state.hasPdfPreview\" hidden class=\"wp-block-file__embed\" data=\"https://insarag.org/wp-content/uploads/2025/06/2025-ISG-Chairmans-Summary-1.pdf\" type=\"application/pdf\" style=\"width:100%;height:600px\" aria-label=\"Embed of 2025 ISG Chairman&#039;s Summary (1).\"></object><a id=\"wp-block-file--media-367a29ce-146c-44b9-b5d9-2680338d7732\" href=\"https://insarag.org/wp-content/uploads/2025/06/2025-ISG-Chairmans-Summary-1.pdf\">2025 ISG Chairman&#8217;s Summary (1)</a><a href=\"https://insarag.org/wp-content/uploads/2025/06/2025-ISG-Chairmans-Summary-1.pdf\" class=\"wp-block-file__button wp-element-button\" download aria-describedby=\"wp-block-file--media-367a29ce-146c-44b9-b5d9-2680338d7732\">Download</a></div>\n\n\n\n<p></p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>The INSARAG Secretariat would like to extend our sincere appreciation to all participants of the 2025 INSARAG Steering Group (ISG) Meeting. Your active engagement, valuable insights, and continued commitment to strengthening international urban search and rescue (USAR) coordination have made this year’s meeting a success. The ISG 2025 Chairman’s Summary is now available. This document captures the [&hellip;]</p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "footnotes": ""
+  },
+  "categories": [
+    35,
+    245
+  ],
+  "tags": [],
+  "class_list": [
+    "post-15444",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "hentry",
+    "category-global-news",
+    "category-global-news-2"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/posts/15444",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/comments?post=15444"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 2,
+        "href": "https://insarag.org/wp-json/wp/v2/posts/15444/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 15446,
+        "href": "https://insarag.org/wp-json/wp/v2/posts/15444/revisions/15446"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/media?parent=15444"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/categories?post=15444"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/tags?post=15444"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "_embedded": {
+    "wp:term": [
+      [
+        {
+          "id": 35,
+          "link": "https://insarag.org/global-structures/global-news/",
+          "name": "Global News",
+          "slug": "global-news",
+          "taxonomy": "category",
+          "_links": {
+            "self": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories/35",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/taxonomies/category"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "href": "https://insarag.org/wp-json/wp/v2/categories/29"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/posts?categories=35"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        },
+        {
+          "id": 245,
+          "link": "https://insarag.org/global-news-2/",
+          "name": "global news",
+          "slug": "global-news-2",
+          "taxonomy": "category",
+          "_links": {
+            "self": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories/245",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/taxonomies/category"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/posts?categories=245"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      ],
+      []
+    ]
+  }
+}

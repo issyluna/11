@@ -1,0 +1,76 @@
+{
+  "$schema": "../news_schema.json",
+  "schema_version": "1.0.0",
+  "doc_id": "INSARAG-NEWS-15537",
+  "record_type": "news",
+  "seq": 8,
+  "source": {
+    "publisher": "INSARAG",
+    "publisher_full": "International Search and Rescue Advisory Group (INSARAG), UN OCHA",
+    "site": "https://insarag.org",
+    "section": "Global News",
+    "canonical_url": "https://insarag.org/global-structures/global-news/flood-response-working-group-reference-notes/",
+    "wp_post_id": 15537,
+    "language": "en",
+    "license_note": "版权归 INSARAG / 联合国人道主义事务协调办公室（OCHA）所有，此处仅用于教学与研究。"
+  },
+  "title_en": "Flood Response Working Group Reference Notes",
+  "title_zh": "洪水响应工作组参考说明",
+  "slug": "flood-response-working-group-reference-notes",
+  "summary_en": "The Flood Response Working Group has successfully finalised its initial Terms of Reference with the publication of the Flood Response – Capacity Building – Reference Note. This document is accessible via the ‘Technical Reference Library’ tab . The Working Group is now dedicated to formulating its 2025–2027 Terms of Reference to advance further knowledge-sharing initiatives. […]",
+  "summary_zh": "洪水响应工作组已通过发布《洪水响应——能力建设——参考说明》成功敲定了其初始职权范围。该文件可通过“技术参考图书馆”选项卡访问。工作组目前正致力于制定其2025—2027年职权范围，以推进进一步的知识共享举措。[…]",
+  "body": {
+    "paragraphs_en": [
+      "The Flood Response Working Group has successfully finalised its initial Terms of Reference with the publication of the Flood Response – Capacity Building – Reference Note. This document is accessible via the ‘ Technical Reference Library ’ tab . The Working Group is now dedicated to formulating its 2025–2027 Terms of Reference to advance further knowledge-sharing initiatives. Heartfelt congratulations to all members of the Flood Response Working Group and contributors to this reference note for their exemplary efforts."
+    ],
+    "paragraphs_zh": [
+      "洪水响应工作组已通过发布《洪水响应——能力建设——参考说明》成功敲定了其初始职权范围。该文件可通过“技术参考图书馆”选项卡访问。工作组目前正致力于制定其2025—2027年职权范围，以推进进一步的知识共享举措。衷心祝贺洪水响应工作组全体成员及本参考说明的贡献者，感谢他们的卓越努力。"
+    ],
+    "plain_text_en": "The Flood Response Working Group has successfully finalised its initial Terms of Reference with the publication of the Flood Response – Capacity Building – Reference Note. This document is accessible via the ‘ Technical Reference Library ’ tab . The Working Group is now dedicated to formulating its 2025–2027 Terms of Reference to advance further knowledge-sharing initiatives. Heartfelt congratulations to all members of the Flood Response Working Group and contributors to this reference note for their exemplary efforts.",
+    "plain_text_zh": "洪水响应工作组已通过发布《洪水响应——能力建设——参考说明》成功敲定了其初始职权范围。该文件可通过“技术参考图书馆”选项卡访问。工作组目前正致力于制定其2025—2027年职权范围，以推进进一步的知识共享举措。衷心祝贺洪水响应工作组全体成员及本参考说明的贡献者，感谢他们的卓越努力。",
+    "char_count_en": 524,
+    "char_count_zh": 141
+  },
+  "published_at": "2025-08-26T09:33:22+00:00",
+  "modified_at": "2025-08-26T09:44:35+00:00",
+  "authors": [
+    "INSARAG Secretariat"
+  ],
+  "categories": [
+    "Global News"
+  ],
+  "tags": [],
+  "entities": {
+    "countries": [],
+    "regions": [],
+    "organizations": [],
+    "usar_teams": [],
+    "themes": [
+      "capacity building",
+      "flood response"
+    ]
+  },
+  "media": [],
+  "attachments": [],
+  "knowledge": {
+    "chunk_strategy": "bilingual-paragraph-400",
+    "chunks": 1,
+    "embedding_model": "embedding-3",
+    "embedding_dim": 1024,
+    "indexed": false
+  },
+  "provenance": {
+    "crawled_at": "2026-10-26T11:00:35.045Z",
+    "crawler": "insarag-crawler/1.0",
+    "http_status": 200,
+    "parser": "wp-rest+html-normalize",
+    "content_sha256": "0ee411e056ac10863abe81fa568285c162134ff19ebe334ad9a56e306bf5a659",
+    "source_snapshot": "data/raw/flood-response-working-group-reference-notes.json",
+    "translation_status": "done"
+  },
+  "translation": {
+    "method": "deepseek-chat",
+    "alignment": "sentence-1to1",
+    "translated_at": "2026-10-26T11:02:15.752Z"
+  }
+}

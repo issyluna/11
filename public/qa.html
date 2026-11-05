@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>智能问答 · INSARAG Hub</title>
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <main class="page">
+    <div class="container">
+      <div class="page-head">
+        <div class="title-wrap">
+          <div class="page-kicker">RETRIEVAL AUGMENTED GENERATION</div>
+          <h1>智能问答</h1>
+          <p>问题先经 embedding-3 向量化，在新闻、术语、平行语料三个知识库中做余弦相似度检索，再把 Top-K 上下文交给 Deepseek 流式作答。</p>
+        </div>
+        <div style="display:flex;gap:10px;align-items:center">
+          <span class="status-pill"><i></i> Deepseek Streaming</span>
+          <button class="btn btn-ghost btn-sm" id="new-chat"><span data-icon="refresh"></span> 新对话</button>
+        </div>
+      </div>
+
+      <div class="qa-layout">
+        <div class="card chat-panel">
+          <div class="chat-scroll" id="chat-scroll">
+            <div class="msg msg-ai">
+              <div class="avatar">AI</div>
+              <div class="msg-body">
+                <div class="msg-name"><b>INSARAG 知识助手</b><span class="badge badge-corpus">RAG · 可溯源</span></div>
+                <div class="bubble">
+                  <p>你好，我是基于 INSARAG 官方新闻、标准术语与英中平行语料构建的知识助手。</p>
+                  <p>我的回答只依据知识库检索到的资料，并在句末标注来源编号。你可以从下面的问题开始：</p>
+                  <div class="suggest-row" style="margin-top:10px">
+                    <button class="suggest">INSARAG 的 IEC 和 IER 有什么区别？</button>
+                    <button class="suggest">社区响应者培训主要在哪些地区开展？</button>
+                    <button class="suggest">USAR 队伍外部评估的流程是怎样的？</button>
+                    <button class="suggest">ISG 2025 会议讨论了哪些重点？</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="chat-input-wrap">
+            <div class="chat-input">
+              <textarea id="question" rows="1" placeholder="输入你的问题，例如：INSARAG 如何开展 USAR 队伍的外部评估？"></textarea>
+              <button class="btn btn-primary" id="send"><span data-icon="spark"></span> 发送</button>
+            </div>
+            <div class="chat-hint">
+              <span>Enter 发送 · Shift + Enter 换行</span>
+              <span id="qa-status">知识库：新闻 / 术语 / 平行语料</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="qa-side">
+          <div class="card side-card">
+            <h3>检索来源 <span class="count" id="source-count">0</span></h3>
+            <div class="source-list" id="source-list">
+              <div class="empty" style="padding:34px 10px">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" style="width:38px;height:38px;margin-bottom:10px;opacity:.5"><path d="M12 3v12M7 11l5 5 5-5"/><path d="M4 19h16"/></svg>
+                <div class="tiny">提问后，这里会实时显示被召回的知识片段与相似度</div>
+              </div>
+            </div>
+          </div>
+          <div class="card side-card">
+            <h3>检索链路</h3>
+            <div style="margin-top:12px;display:flex;flex-direction:column;gap:9px">
+              <div class="relation-row"><span class="mono">01</span><span>问题 → embedding-3（1024 维）</span></div>
+              <div class="relation-row"><span class="mono">02</span><span>余弦相似度 · 跨三库召回</span></div>
+              <div class="relation-row"><span class="mono">03</span><span>Top-K 去重 + 类型配额</span></div>
+              <div class="relation-row"><span class="mono">04</span><span>Deepseek 流式生成 + 引用</span></div>
+            </div>
+            <div class="tiny muted" style="margin-top:10px">相似度阈值 0.18 · 新闻 5 / 语料 3 / 术语 3</div>
+          </div>
+          <div class="card side-card">
+            <h3>知识库覆盖</h3>
+            <div id="coverage" style="margin-top:12px" class="tiny muted">加载中…</div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <div id="app-footer"></div>
+  <script src="/js/ui.js"></script>
+  <script src="/js/qa.js"></script>
+</body>
+</html>

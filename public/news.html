@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新闻知识库 · INSARAG Hub</title>
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <main class="page">
+    <div class="container">
+      <div class="page-head">
+        <div class="title-wrap">
+          <div class="page-kicker">NEWS KNOWLEDGE BASE</div>
+          <h1>新闻知识库</h1>
+          <p>10 条来自 insarag.org 的官方新闻，保留双语正文、实体标签、配图与原文链接。点击卡片查看完整元数据。</p>
+        </div>
+        <div style="text-align:right">
+          <div class="status-pill"><i></i> 全部完成向量化</div>
+        </div>
+      </div>
+
+      <div class="stat-strip">
+        <div class="stat-box blue"><b id="n-total">—</b><span>新闻总数</span></div>
+        <div class="stat-box green"><b id="n-vector">—</b><span>已向量化</span></div>
+        <div class="stat-box gold"><b id="n-bilingual">—</b><span>中英双语</span></div>
+        <div class="stat-box"><b id="n-chars">—</b><span>中文总字数</span></div>
+      </div>
+
+      <div class="toolbar">
+        <div class="search-input">
+          <span data-icon="search"></span>
+          <input id="search" type="search" placeholder="搜索标题、正文、标签…">
+        </div>
+        <div class="chip-row" id="section-chips">
+          <button class="chip active" data-section="">全部栏目</button>
+          <button class="chip" data-section="Global News">Global News</button>
+          <button class="chip" data-section="Asia-Pacific News">Asia-Pacific</button>
+          <button class="chip" data-section="AEME News">AEME</button>
+          <button class="chip" data-section="IEC/R News">IEC/R</button>
+        </div>
+      </div>
+
+      <div class="news-grid" id="news-grid"></div>
+    </div>
+  </main>
+
+  <div id="modal-root"></div>
+  <div id="app-footer"></div>
+  <script src="/js/ui.js"></script>
+  <script src="/js/news.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "insarag-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "INSARAG 知识库与东盟多语翻译平台（零依赖 Node.js + SQLite + RAG）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "dev": "node --no-warnings --watch server.js",
+    "crawl": "node scripts/crawl.cjs",
+    "translate": "node scripts/translate-news.cjs",
+    "build-index": "node --no-warnings scripts/build-index.cjs",
+    "pm2:start": "pm2 start ecosystem.config.cjs",
+    "pm2:restart": "pm2 restart insarag-hub",
+    "pm2:logs": "pm2 logs insarag-hub"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

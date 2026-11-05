@@ -1,0 +1,89 @@
+{
+  "$schema": "../news_schema.json",
+  "schema_version": "1.0.0",
+  "doc_id": "INSARAG-NEWS-15444",
+  "record_type": "news",
+  "seq": 6,
+  "source": {
+    "publisher": "INSARAG",
+    "publisher_full": "International Search and Rescue Advisory Group (INSARAG), UN OCHA",
+    "site": "https://insarag.org",
+    "section": "Global News",
+    "canonical_url": "https://insarag.org/global-structures/global-news/isg-2025-chairmans-summary/",
+    "wp_post_id": 15444,
+    "language": "en",
+    "license_note": "版权归 INSARAG / 联合国人道主义事务协调办公室（OCHA）所有，此处仅用于教学与研究。"
+  },
+  "title_en": "ISG 2025 Chairman`s Summary",
+  "title_zh": "ISG 2025 主席总结",
+  "slug": "isg-2025-chairmans-summary",
+  "summary_en": "The INSARAG Secretariat would like to extend our sincere appreciation to all participants of the 2025 INSARAG Steering Group (ISG) Meeting. Your active engagement, valuable insights, and continued commitment to strengthening international urban search and rescue (USAR) coordination have made this year’s meeting a success. The ISG 2025 Chairman’s Summary is now available. This document captures the […]",
+  "summary_zh": "INSARAG 秘书处谨向 2025 年 INSARAG 指导小组（ISG）会议的所有参会者致以诚挚感谢。你们的积极参与、宝贵见解以及为加强国际城市搜索与救援（USAR）协调所作出的持续承诺，使今年的会议取得了圆满成功。ISG 2025 主席总结现已发布。本文件记录了 […]",
+  "body": {
+    "paragraphs_en": [
+      "The INSARAG Secretariat would like to extend our sincere appreciation to all participants of the 2025 INSARAG Steering Group (ISG) Meeting. Your active engagement, valuable insights, and continued commitment to strengthening international urban search and rescue (USAR) coordination have made this year’s meeting a success.",
+      "The ISG 2025 Chairman’s Summary is now available. This document captures the key discussions and decisions agreed upon during the meeting. The ISG 2025 Chairman`s summary can also be found together with previous years Chairman`s summaries here .",
+      "Thank you once again for your contributions and continued support of the INSARAG network."
+    ],
+    "paragraphs_zh": [
+      "INSARAG 秘书处谨向 2025 年 INSARAG 指导小组（ISG）会议的所有参会者致以诚挚感谢。你们的积极参与、宝贵见解以及为加强国际城市搜索与救援（USAR）协调所作出的持续承诺，使今年的会议取得了圆满成功。",
+      "ISG 2025 主席总结现已发布。本文件记录了会议期间达成的主要讨论和决定。ISG 2025 主席总结也可在此处与往年主席总结一并查阅。",
+      "再次感谢你们为 INSARAG 网络所作的贡献和持续支持。"
+    ],
+    "plain_text_en": "The INSARAG Secretariat would like to extend our sincere appreciation to all participants of the 2025 INSARAG Steering Group (ISG) Meeting. Your active engagement, valuable insights, and continued commitment to strengthening international urban search and rescue (USAR) coordination have made this year’s meeting a success.\n\nThe ISG 2025 Chairman’s Summary is now available. This document captures the key discussions and decisions agreed upon during the meeting. The ISG 2025 Chairman`s summary can also be found together with previous years Chairman`s summaries here .\n\nThank you once again for your contributions and continued support of the INSARAG network.",
+    "plain_text_zh": "INSARAG 秘书处谨向 2025 年 INSARAG 指导小组（ISG）会议的所有参会者致以诚挚感谢。你们的积极参与、宝贵见解以及为加强国际城市搜索与救援（USAR）协调所作出的持续承诺，使今年的会议取得了圆满成功。\n\nISG 2025 主席总结现已发布。本文件记录了会议期间达成的主要讨论和决定。ISG 2025 主席总结也可在此处与往年主席总结一并查阅。\n\n再次感谢你们为 INSARAG 网络所作的贡献和持续支持。",
+    "char_count_en": 661,
+    "char_count_zh": 212
+  },
+  "published_at": "2025-06-05T13:23:33+00:00",
+  "modified_at": "2025-06-05T13:24:58+00:00",
+  "authors": [
+    "INSARAG Secretariat"
+  ],
+  "categories": [
+    "Global News",
+    "global news"
+  ],
+  "tags": [],
+  "entities": {
+    "countries": [],
+    "regions": [],
+    "organizations": [
+      "INSARAG",
+      "ISG"
+    ],
+    "usar_teams": [],
+    "themes": [
+      "governance"
+    ]
+  },
+  "media": [],
+  "attachments": [
+    {
+      "type": "pdf",
+      "title": "2025-ISG-Chairmans-Summary-1.pdf",
+      "url": "https://insarag.org/wp-content/uploads/2025/06/2025-ISG-Chairmans-Summary-1.pdf"
+    }
+  ],
+  "knowledge": {
+    "chunk_strategy": "bilingual-paragraph-400",
+    "chunks": 3,
+    "embedding_model": "embedding-3",
+    "embedding_dim": 1024,
+    "indexed": false
+  },
+  "provenance": {
+    "crawled_at": "2026-10-26T11:00:32.013Z",
+    "crawler": "insarag-crawler/1.0",
+    "http_status": 200,
+    "parser": "wp-rest+html-normalize",
+    "content_sha256": "894b668b0166ef882da4305fbab16ed6b35d24494805482c904ab3b70fc732cd",
+    "source_snapshot": "data/raw/isg-2025-chairmans-summary.json",
+    "translation_status": "done"
+  },
+  "translation": {
+    "method": "deepseek-chat",
+    "alignment": "sentence-1to1",
+    "translated_at": "2026-10-26T11:02:13.642Z"
+  }
+}

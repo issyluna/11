@@ -1,0 +1,127 @@
+{
+  "$schema": "../news_schema.json",
+  "schema_version": "1.0.0",
+  "doc_id": "INSARAG-NEWS-15653",
+  "record_type": "news",
+  "seq": 2,
+  "source": {
+    "publisher": "INSARAG",
+    "publisher_full": "International Search and Rescue Advisory Group (INSARAG), UN OCHA",
+    "site": "https://insarag.org",
+    "section": "Global News",
+    "canonical_url": "https://insarag.org/global-structures/global-news/tot-ucc-sep25-in-ulm-empowering-trainers-for-effective-usar-coordination/",
+    "wp_post_id": 15653,
+    "language": "en",
+    "license_note": "版权归 INSARAG / 联合国人道主义事务协调办公室（OCHA）所有，此处仅用于教学与研究。"
+  },
+  "title_en": "ToT UC Course Sep25 in Ulm: Empowering Trainers for Effective USAR Coordination",
+  "title_zh": "2025年9月乌尔姆ToT UC课程：赋能培训师，提升USAR协调效能",
+  "slug": "tot-ucc-sep25-in-ulm-empowering-trainers-for-effective-usar-coordination",
+  "summary_en": "USAR teams of the DACHL network (Germany, Austria, Switzerland, Luxembourg) regularly facilitate trainings for different USAR areas and invite international colleagues to participate. This year, the German Federal Agency for Technical Relief (THW) hosted an INSARAG Training of Trainers for USAR Coordination Courses (ToT UC Course) at THW’s Logistic Centre in Ulm, Germany from 31st […]",
+  "summary_zh": "DACHL网络（德国、奥地利、瑞士、卢森堡）的USAR救援队定期为不同USAR领域举办培训，并邀请国际同行参加。今年，德国联邦技术救援署（THW）于2025年8月31日至9月6日在德国乌尔姆的THW后勤中心主办了INSARAG USAR协调课程培训师培训（ToT UC课程）。",
+  "body": {
+    "paragraphs_en": [
+      "USAR teams of the DACHL network (Germany, Austria, Switzerland, Luxembourg) regularly facilitate trainings for different USAR areas and invite international colleagues to participate. This year, the German Federal Agency for Technical Relief (THW) hosted an INSARAG Training of Trainers for USAR Coordination Courses (ToT UC Course) at THW’s Logistic Centre in Ulm, Germany from 31st August to 6th September 2025.",
+      "17 participants from different countries of the AEME region took part in the five-day course. The content was structured in three days of theoretical input and two days for the practical earthquake simulation. Additionally, a guided tour through the Logistic Centre and a visit to the local branch of Neu-Ulm gave insights into THW’s national capacities.",
+      "During the first two days, five experienced INSARAG trainers provided theoretical input according to the ToT UC Course training package: basics of instructing, communication skills, adult learning, and creating a positive learning environment. Furthermore, they covered information about GDACS, VOSOCC and ICMS.",
+      "On the third day, participants gave presentations, in which they were able to apply their presentation and communication skills. Throughout these days, methods and creative activities were included, that participants can use as an inspiration for their own future UC courses.",
+      "In the morning of the fourth day an additional media training was integrated, facilitated by THW media experts. Participants received theoretical instructions on how to effectively manage media interactions and engage with reporters during a deployment. Afterwards, the participants had the opportunity to put their knowledge into practice: The course proceeded with a practical UCC simulation of an earthquake in so called Etruria. Divided into two groups, one group acted as EXCON, while the other group took part in the simulation itself. The next morning, the groups’ tasks were switched. Within the exercise, participants were confronted with simulated media teams asking for information and an UNDAC-trained THW volunteer, providing opportunities for cooperation of different UN coordination components. This setup allowed all participants to practice effective exercise management in a realistic scenario.",
+      "The ToT UC course equipped its participants with valuable skills and comprehensive knowledge focused on training other trainers. By empowering trainers with this expertise, the program ensures a sustainable and multiplying effect – enabling trained instructors to effectively pass on their knowledge and methodologies to future UC courses. It strengthens the overall capacity and readiness of USAR Coordination, supporting INSARAG’s mission to save lives through efficient, well-coordinated USAR deployments worldwide.",
+      "By: Charlie Kuletzki and Daniela Glatz"
+    ],
+    "paragraphs_zh": [
+      "DACHL网络（德国、奥地利、瑞士、卢森堡）的USAR救援队定期为不同USAR领域举办培训，并邀请国际同行参加。今年，德国联邦技术救援署（THW）于2025年8月31日至9月6日在德国乌尔姆的THW后勤中心主办了INSARAG USAR协调课程培训师培训（ToT UC课程）。",
+      "来自AEME地区不同国家的17名学员参加了为期五天的课程。课程内容安排为三天理论授课和两天地震模拟实操。此外，参观后勤中心以及走访新乌尔姆当地分支机构，使学员深入了解了THW的国家能力。",
+      "在前两天，五位经验丰富的INSARAG培训师按照ToT UC课程培训包提供了理论授课：授课基础、沟通技巧、成人学习以及营造积极的学习环境。此外，他们还介绍了GDACS、VOSOCC和ICMS的相关信息。",
+      "第三天，学员进行了演示汇报，得以运用自己的表达和沟通技巧。在这些天里，课程还融入了多种方法和创意活动，学员可将其作为今后自己开展UC课程的灵感。",
+      "第四天上午，还增设了一场媒体培训，由THW媒体专家主持。学员接受了关于如何在部署期间有效管理媒体互动和应对记者的理论指导。随后，学员有机会将所学知识付诸实践：课程接着进行了所谓“埃特鲁里亚”地震的UCC模拟实操。学员分为两组，一组担任EXCON，另一组参加模拟本身。第二天上午，两组任务互换。演练中，学员面对索要信息的模拟媒体团队，以及一名受过UNDAC培训的THW志愿者，为不同联合国协调部门的合作提供了机会。这一安排使所有学员都能在逼真的场景中练习有效的演练管理。",
+      "ToT UC课程为学员提供了宝贵的技能和全面的知识，重点在于培训其他培训师。通过赋予培训师这一专长，该项目确保了可持续的倍增效应——使受训讲师能够有效地将知识和教学方法传授给未来的UC课程。它增强了USAR协调的整体能力和准备水平，支持INSARAG通过在全球范围内高效、协调良好的USAR部署来拯救生命的使命。",
+      "作者：Charlie Kuletzki 和 Daniela Glatz"
+    ],
+    "plain_text_en": "USAR teams of the DACHL network (Germany, Austria, Switzerland, Luxembourg) regularly facilitate trainings for different USAR areas and invite international colleagues to participate. This year, the German Federal Agency for Technical Relief (THW) hosted an INSARAG Training of Trainers for USAR Coordination Courses (ToT UC Course) at THW’s Logistic Centre in Ulm, Germany from 31st August to 6th September 2025.\n\n17 participants from different countries of the AEME region took part in the five-day course. The content was structured in three days of theoretical input and two days for the practical earthquake simulation. Additionally, a guided tour through the Logistic Centre and a visit to the local branch of Neu-Ulm gave insights into THW’s national capacities.\n\nDuring the first two days, five experienced INSARAG trainers provided theoretical input according to the ToT UC Course training package: basics of instructing, communication skills, adult learning, and creating a positive learning environment. Furthermore, they covered information about GDACS, VOSOCC and ICMS.\n\nOn the third day, participants gave presentations, in which they were able to apply their presentation and communication skills. Throughout these days, methods and creative activities were included, that participants can use as an inspiration for their own future UC courses.\n\nIn the morning of the fourth day an additional media training was integrated, facilitated by THW media experts. Participants received theoretical instructions on how to effectively manage media interactions and engage with reporters during a deployment. Afterwards, the participants had the opportunity to put their knowledge into practice: The course proceeded with a practical UCC simulation of an earthquake in so called Etruria. Divided into two groups, one group acted as EXCON, while the other group took part in the simulation itself. The next morning, the groups’ tasks were switched. Within the exercise, participants were confronted with simulated media teams asking for information and an UNDAC-trained THW volunteer, providing opportunities for cooperation of different UN coordination components. This setup allowed all participants to practice effective exercise management in a realistic scenario.\n\nThe ToT UC course equipped its participants with valuable skills and comprehensive knowledge focused on training other trainers. By empowering trainers with this expertise, the program ensures a sustainable and multiplying effect – enabling trained instructors to effectively pass on their knowledge and methodologies to future UC courses. It strengthens the overall capacity and readiness of USAR Coordination, supporting INSARAG’s mission to save lives through efficient, well-coordinated USAR deployments worldwide.\n\nBy: Charlie Kuletzki and Daniela Glatz",
+    "plain_text_zh": "DACHL网络（德国、奥地利、瑞士、卢森堡）的USAR救援队定期为不同USAR领域举办培训，并邀请国际同行参加。今年，德国联邦技术救援署（THW）于2025年8月31日至9月6日在德国乌尔姆的THW后勤中心主办了INSARAG USAR协调课程培训师培训（ToT UC课程）。\n\n来自AEME地区不同国家的17名学员参加了为期五天的课程。课程内容安排为三天理论授课和两天地震模拟实操。此外，参观后勤中心以及走访新乌尔姆当地分支机构，使学员深入了解了THW的国家能力。\n\n在前两天，五位经验丰富的INSARAG培训师按照ToT UC课程培训包提供了理论授课：授课基础、沟通技巧、成人学习以及营造积极的学习环境。此外，他们还介绍了GDACS、VOSOCC和ICMS的相关信息。\n\n第三天，学员进行了演示汇报，得以运用自己的表达和沟通技巧。在这些天里，课程还融入了多种方法和创意活动，学员可将其作为今后自己开展UC课程的灵感。\n\n第四天上午，还增设了一场媒体培训，由THW媒体专家主持。学员接受了关于如何在部署期间有效管理媒体互动和应对记者的理论指导。随后，学员有机会将所学知识付诸实践：课程接着进行了所谓“埃特鲁里亚”地震的UCC模拟实操。学员分为两组，一组担任EXCON，另一组参加模拟本身。第二天上午，两组任务互换。演练中，学员面对索要信息的模拟媒体团队，以及一名受过UNDAC培训的THW志愿者，为不同联合国协调部门的合作提供了机会。这一安排使所有学员都能在逼真的场景中练习有效的演练管理。\n\nToT UC课程为学员提供了宝贵的技能和全面的知识，重点在于培训其他培训师。通过赋予培训师这一专长，该项目确保了可持续的倍增效应——使受训讲师能够有效地将知识和教学方法传授给未来的UC课程。它增强了USAR协调的整体能力和准备水平，支持INSARAG通过在全球范围内高效、协调良好的USAR部署来拯救生命的使命。\n\n作者：Charlie Kuletzki 和 Daniela Glatz",
+    "char_count_en": 2833,
+    "char_count_zh": 841
+  },
+  "published_at": "2025-09-10T14:34:29+00:00",
+  "modified_at": "2025-12-18T13:31:06+00:00",
+  "authors": [
+    "INSARAG Secretariat"
+  ],
+  "categories": [
+    "Global News",
+    "global news"
+  ],
+  "tags": [],
+  "entities": {
+    "countries": [
+      "Germany",
+      "Austria",
+      "Switzerland",
+      "Luxembourg"
+    ],
+    "regions": [
+      "Africa-Europe-Middle East"
+    ],
+    "organizations": [
+      "INSARAG",
+      "UN",
+      "THW",
+      "DACHL"
+    ],
+    "usar_teams": [],
+    "themes": [
+      "USAR coordination",
+      "capacity building",
+      "regional cooperation"
+    ]
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "https://insarag.org/wp-content/uploads/2025/09/TOT-UCC-Sep25_7-3.jpg",
+      "local_path": "data/media/INSARAG-NEWS-15653-1.jpg",
+      "alt": "ToT UC Course Sep25 in Ulm: Empowering Trainers for Effective USAR Coordination - image 1",
+      "caption": "",
+      "downloaded_bytes": 116429
+    },
+    {
+      "type": "image",
+      "url": "https://insarag.org/wp-content/uploads/2025/09/20250905_S_INSARAG_LogZ_klein_13-1-683x1024.jpg",
+      "local_path": "data/media/INSARAG-NEWS-15653-2.jpg",
+      "alt": "ToT UC Course Sep25 in Ulm: Empowering Trainers for Effective USAR Coordination - image 2",
+      "caption": "",
+      "downloaded_bytes": 138242
+    },
+    {
+      "type": "image",
+      "url": "https://insarag.org/wp-content/uploads/2025/09/TOT-UCC-Sep25_3-1-768x1024.jpg",
+      "local_path": "data/media/INSARAG-NEWS-15653-3.jpg",
+      "alt": "ToT UC Course Sep25 in Ulm: Empowering Trainers for Effective USAR Coordination - image 3",
+      "caption": "",
+      "downloaded_bytes": 189512
+    }
+  ],
+  "attachments": [],
+  "knowledge": {
+    "chunk_strategy": "bilingual-paragraph-400",
+    "chunks": 7,
+    "embedding_model": "embedding-3",
+    "embedding_dim": 1024,
+    "indexed": false
+  },
+  "provenance": {
+    "crawled_at": "2026-10-26T11:00:24.876Z",
+    "crawler": "insarag-crawler/1.0",
+    "http_status": 200,
+    "parser": "wp-rest+html-normalize",
+    "content_sha256": "a3f8e9ab23f2a15daa2c8574eb7de98a3a9dbc1951eabbd1606c2065bca0bd13",
+    "source_snapshot": "data/raw/tot-ucc-sep25-in-ulm-empowering-trainers-for-effective-usar-coordination.json",
+    "translation_status": "done"
+  },
+  "translation": {
+    "method": "deepseek-chat",
+    "alignment": "sentence-1to1",
+    "translated_at": "2026-10-26T11:02:20.514Z"
+  }
+}

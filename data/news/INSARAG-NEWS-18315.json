@@ -1,0 +1,92 @@
+{
+  "$schema": "../news_schema.json",
+  "schema_version": "1.0.0",
+  "doc_id": "INSARAG-NEWS-18315",
+  "record_type": "news",
+  "seq": 9,
+  "source": {
+    "publisher": "INSARAG",
+    "publisher_full": "International Search and Rescue Advisory Group (INSARAG), UN OCHA",
+    "site": "https://insarag.org",
+    "section": "Global News",
+    "canonical_url": "https://insarag.org/uncategorized/exercise-hosting-coordination-framework-in-qatar/",
+    "wp_post_id": 18315,
+    "language": "en",
+    "license_note": "版权归 INSARAG / 联合国人道主义事务协调办公室（OCHA）所有，此处仅用于教学与研究。"
+  },
+  "title_en": "Exercise Hosting Coordination Framework in Qatar",
+  "title_zh": "卡塔尔演练主办协调框架",
+  "slug": "exercise-hosting-coordination-framework-in-qatar",
+  "summary_en": "On 2 June 2026 an Exercise Hosting Coordination Framework between Lekhwiya and INSARAG was signed in preparation for the INSARAG Global Exercise (Qatar, 25 to 29 October 2026). The arrangement was signed by Ambassador Dominik Stillhart, INSARAG Global Chair, and Staff Brigadier Mubarak Sherida Al Kaabi, Assistant Commander for Administration and Supply.",
+  "summary_zh": "2026年6月2日，为筹备INSARAG全球演练（卡塔尔，2026年10月25日至29日），Lekhwiya与INSARAG签署了演练主办协调框架。该安排由INSARAG全球主席Dominik Stillhart大使与负责行政与供应的助理指挥官Mubarak Sherida Al Kaabi准将签署。",
+  "body": {
+    "paragraphs_en": [
+      "On 2 June 2026 an Exercise Hosting Coordination Framework between Lekhwiya and INSARAG was signed in preparation for the INSARAG Global Exercise (Qatar, 25 to 29 October 2026). The arrangement was signed by Ambassador Dominik Stillhart, INSARAG Global Chair, and Staff Brigadier Mubarak Sherida Al Kaabi, Assistant Commander for Administration and Supply."
+    ],
+    "paragraphs_zh": [
+      "2026年6月2日，为筹备INSARAG全球演练（卡塔尔，2026年10月25日至29日），Lekhwiya与INSARAG签署了演练主办协调框架。该安排由INSARAG全球主席Dominik Stillhart大使与负责行政与供应的助理指挥官Mubarak Sherida Al Kaabi准将签署。"
+    ],
+    "plain_text_en": "On 2 June 2026 an Exercise Hosting Coordination Framework between Lekhwiya and INSARAG was signed in preparation for the INSARAG Global Exercise (Qatar, 25 to 29 October 2026). The arrangement was signed by Ambassador Dominik Stillhart, INSARAG Global Chair, and Staff Brigadier Mubarak Sherida Al Kaabi, Assistant Commander for Administration and Supply.",
+    "plain_text_zh": "2026年6月2日，为筹备INSARAG全球演练（卡塔尔，2026年10月25日至29日），Lekhwiya与INSARAG签署了演练主办协调框架。该安排由INSARAG全球主席Dominik Stillhart大使与负责行政与供应的助理指挥官Mubarak Sherida Al Kaabi准将签署。",
+    "char_count_en": 355,
+    "char_count_zh": 151
+  },
+  "published_at": "2026-06-03T11:24:28+00:00",
+  "modified_at": "2026-08-13T13:54:22+00:00",
+  "authors": [
+    "INSARAG Secretariat"
+  ],
+  "categories": [
+    "Uncategorized"
+  ],
+  "tags": [],
+  "entities": {
+    "countries": [
+      "Qatar"
+    ],
+    "regions": [
+      "Africa-Europe-Middle East"
+    ],
+    "organizations": [
+      "INSARAG",
+      "Lekhwiya"
+    ],
+    "usar_teams": [],
+    "themes": [
+      "IEC/R classification",
+      "regional cooperation"
+    ]
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "https://insarag.org/wp-content/uploads/2026/06/Exercise-Hosting-Coordination-Framework-in-Qatar-1024x640.jpeg",
+      "local_path": "data/media/INSARAG-NEWS-18315-1.jpg",
+      "alt": "Exercise Hosting Coordination Framework in Qatar - image 1",
+      "caption": "",
+      "downloaded_bytes": 77664
+    }
+  ],
+  "attachments": [],
+  "knowledge": {
+    "chunk_strategy": "bilingual-paragraph-400",
+    "chunks": 1,
+    "embedding_model": "embedding-3",
+    "embedding_dim": 1024,
+    "indexed": false
+  },
+  "provenance": {
+    "crawled_at": "2026-10-26T11:00:36.435Z",
+    "crawler": "insarag-crawler/1.0",
+    "http_status": 200,
+    "parser": "wp-rest+html-normalize",
+    "content_sha256": "2936ced297bea4a95f5b0a91a25c54810d22a4a04f83fb59cb774015e354ae61",
+    "source_snapshot": "data/raw/exercise-hosting-coordination-framework-in-qatar.json",
+    "translation_status": "done"
+  },
+  "translation": {
+    "method": "deepseek-chat",
+    "alignment": "sentence-1to1",
+    "translated_at": "2026-10-26T11:02:33.640Z"
+  }
+}

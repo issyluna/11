@@ -1,0 +1,215 @@
+{
+  "id": 19010,
+  "date": "2026-10-13T11:39:39",
+  "date_gmt": "2026-10-13T11:39:39",
+  "guid": {
+    "rendered": "https://insarag.org/?p=19010"
+  },
+  "modified": "2026-10-13T11:48:54",
+  "modified_gmt": "2026-10-13T11:48:54",
+  "slug": "iec-ger-01",
+  "status": "publish",
+  "type": "post",
+  "link": "https://insarag.org/uncategorized/iec-ger-01/",
+  "title": {
+    "rendered": "IEC GER-01"
+  },
+  "content": {
+    "rendered": "\n<p>The Technisches Hilfswerk (THW) Schnell Einsatz Einheit Bergung Ausland (SEEBA) Team (GER-01) has been successfully reclassified from Heavy to Medium USAR team following the classification process conducted from 5 to 9 October 2026 in Austria. The INSARAG Secretariat extends its sincerest congratulations.</p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>The Technisches Hilfswerk (THW) Schnell Einsatz Einheit Bergung Ausland (SEEBA) Team (GER-01) has been successfully reclassified from Heavy to Medium USAR team following the classification process conducted from 5 to 9 October 2026 in Austria. The INSARAG Secretariat extends its sincerest congratulations.</p>\n",
+    "protected": false
+  },
+  "author": 33,
+  "featured_media": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "footnotes": ""
+  },
+  "categories": [
+    119,
+    1
+  ],
+  "tags": [],
+  "class_list": [
+    "post-19010",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "hentry",
+    "category-iec-news",
+    "category-uncategorized"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/posts/19010",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/users/33"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/comments?post=19010"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 2,
+        "href": "https://insarag.org/wp-json/wp/v2/posts/19010/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 19023,
+        "href": "https://insarag.org/wp-json/wp/v2/posts/19010/revisions/19023"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/media?parent=19010"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/categories?post=19010"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/tags?post=19010"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "_embedded": {
+    "wp:term": [
+      [
+        {
+          "id": 119,
+          "link": "https://insarag.org/iec/iec-news/",
+          "name": "IEC/R News",
+          "slug": "iec-news",
+          "taxonomy": "category",
+          "_links": {
+            "self": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories/119",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/taxonomies/category"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "href": "https://insarag.org/wp-json/wp/v2/categories/37"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/posts?categories=119"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        },
+        {
+          "id": 1,
+          "link": "https://insarag.org/uncategorized/",
+          "name": "Uncategorized",
+          "slug": "uncategorized",
+          "taxonomy": "category",
+          "_links": {
+            "self": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/taxonomies/category"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/posts?categories=1"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      ],
+      []
+    ]
+  }
+}

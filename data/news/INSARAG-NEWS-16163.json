@@ -1,0 +1,122 @@
+{
+  "$schema": "../news_schema.json",
+  "schema_version": "1.0.0",
+  "doc_id": "INSARAG-NEWS-16163",
+  "record_type": "news",
+  "seq": 1,
+  "source": {
+    "publisher": "INSARAG",
+    "publisher_full": "International Search and Rescue Advisory Group (INSARAG), UN OCHA",
+    "site": "https://insarag.org",
+    "section": "Global News",
+    "canonical_url": "https://insarag.org/global-structures/global-news/insarag-community-responder-training-enhancing-civil-society-preparedness-in-the-kurdistan-region-iraq/",
+    "wp_post_id": 16163,
+    "language": "en",
+    "license_note": "版权归 INSARAG / 联合国人道主义事务协调办公室（OCHA）所有，此处仅用于教学与研究。"
+  },
+  "title_en": "INSARAG Community Responder Training: Enhancing Civil Society Preparedness in the Kurdistan Region Iraq",
+  "title_zh": "INSARAG 社区响应者培训：提升伊拉克库尔德地区民间社会备灾能力",
+  "slug": "insarag-community-responder-training-enhancing-civil-society-preparedness-in-the-kurdistan-region-iraq",
+  "summary_en": "The INSARAG Community Responder Training (CRT) was developed to provide guidance and training for first aiders on community level. Analysis of earthquakes have shown that the majority of successful rescues are done within the first hours by civilians – neighbors and family members – long before professional help can arrive. Thus, the CRT aims to […]",
+  "summary_zh": "INSARAG 社区响应者培训（CRT）旨在为社区层面的急救人员提供指导和培训。对地震的分析表明，大多数成功的救援是在最初几小时内由平民——邻居和家人——完成的，远早于专业救援力量能够到达。因此，CRT 旨在建立并发展民间社会的地方能力，以便在（尚）没有有组织的 USAR 救援队的地区应对突发事件。",
+  "body": {
+    "paragraphs_en": [
+      "The INSARAG Community Responder Training (CRT) was developed to provide guidance and training for first aiders on community level. Analysis of earthquakes have shown that the majority of successful rescues are done within the first hours by civilians – neighbors and family members – long before professional help can arrive. Thus, the CRT aims to build and develop local capacities within civil society to respond to incidents in areas where no organized USAR teams are (yet) present. In 2023 the ISG endorsed the Community Responder Training Package (back then under the name “First Responder Training 2.0”). The training covers the complete theoretical and practical standard curriculum of the INSARAG, focusing on disaster assessment and information gathering, formation of responder teams, task allocation within the teams, simple search and rescue operations, basic medical care, and reporting.",
+      "The Kurdistan Region of Iraq was one of five countries that has implemented the INSARAG Community Responder Training. An essential success factor is the careful localization of the training. Local trainers adapt the standardized content to the community-specific conditions—whether it is the local earthquake risk, typical types of disasters, regional building styles, or real examples from the area. This practical approach ensures that participants better understand the content and can directly apply the exercises in their daily lives.",
+      "From October 13 to 16, 2025, the Joint Crisis Coordination Center (JCC) held the Community Responder Training Week for the second time in the Kurdistan Region of Iraq with the support by the German Agency for Technical Relief (THW). During this event, five CRT courses took place simultaneously across the entire Kurdistan Region of Iraq. A total of 125 participants from civil society, including teachers, volunteers, and agency staff, were trained in Erbil, Sulaymaniah, Halabja, Dohuk, and Raparin. Already in November 2024, the training was conducted simultaneously at five locations in the region.",
+      "The training is fully organized and conducted by JCC. THW provides administrative support and, together with a representative from the German Federal Ministry of the Interior, officially launched the event digitally. The training was mainly conducted by JCC master trainers supported by THW staff, who took part in the test-run of the CRT by THW in 2023 in Wesel, Germany. JCC has proven outstanding commitment furthering the trainings. Looking back, THW supported JCC conducting 43 Community Responder Trainings in the Kurdistan Region of Iraq. Up to today, around 1.000 Community Responders have been trained.",
+      "The Community Responder Training is a significant step toward better preparing the local population for potential crises, especially earthquakes. It is crucial for the protection and safety – not only of the communities in the Kurdistan Region Iraq. The CRT package can be downloaded here ."
+    ],
+    "paragraphs_zh": [
+      "INSARAG 社区响应者培训（CRT）旨在为社区层面的急救人员提供指导和培训。对地震的分析表明，大多数成功的救援是在最初几小时内由平民——邻居和家人——完成的，远早于专业救援力量能够到达。因此，CRT 旨在建立并发展民间社会的地方能力，以便在（尚）没有有组织的 USAR 救援队的地区应对突发事件。2023 年，ISG 批准了社区响应者培训包（当时名称为“急救人员培训 2.0”）。该培训涵盖 INSARAG 完整的理论和实践标准课程，重点包括灾害评估与信息收集、响应者队伍的组建、队伍内部的任务分配、简易搜索与救援行动、基础医疗救护以及报告。",
+      "伊拉克库尔德地区是实施 INSARAG 社区响应者培训的五个国家之一。一个关键的成功因素是培训的精心本地化。本地培训师将标准化内容调整为适应社区具体情况——无论是当地的地震风险、典型的灾害类型、区域建筑风格，还是该地区的真实案例。这种实践性方法确保参与者更好地理解内容，并能在日常生活中直接应用所学演练。",
+      "2025 年 10 月 13 日至 16 日，联合危机协调中心（JCC）在德国联邦技术救援署（THW）的支持下，第二次在伊拉克库尔德地区举办社区响应者培训周。在此期间，五期 CRT 课程在伊拉克库尔德地区各地同时举行。共有 125 名来自民间社会的参与者，包括教师、志愿者和机构工作人员，在埃尔比勒、苏莱曼尼亚、哈拉卜贾、杜胡克和拉帕林接受了培训。早在 2024 年 11 月，该培训就已在该地区的五个地点同时开展。",
+      "该培训完全由 JCC 组织和实施。THW 提供行政支持，并与德国联邦内政部的一名代表一起以线上方式正式启动了该活动。培训主要由 JCC 的培训师主讲，并由 THW 工作人员协助，这些工作人员曾参加 2023 年在德国韦塞尔举行的 THW CRT 试运行。JCC 在推进培训方面展现了卓越的投入。回顾过去，THW 支持 JCC 在伊拉克库尔德地区开展了 43 期社区响应者培训。迄今为止，已有约 1,000 名社区响应者接受了培训。",
+      "社区响应者培训是帮助当地民众更好地为潜在危机、尤其是地震做好准备的重要一步。这对保护和安全至关重要——不仅对伊拉克库尔德地区的社区而言。CRT 培训包可在此处下载。"
+    ],
+    "plain_text_en": "The INSARAG Community Responder Training (CRT) was developed to provide guidance and training for first aiders on community level. Analysis of earthquakes have shown that the majority of successful rescues are done within the first hours by civilians – neighbors and family members – long before professional help can arrive. Thus, the CRT aims to build and develop local capacities within civil society to respond to incidents in areas where no organized USAR teams are (yet) present. In 2023 the ISG endorsed the Community Responder Training Package (back then under the name “First Responder Training 2.0”). The training covers the complete theoretical and practical standard curriculum of the INSARAG, focusing on disaster assessment and information gathering, formation of responder teams, task allocation within the teams, simple search and rescue operations, basic medical care, and reporting.\n\nThe Kurdistan Region of Iraq was one of five countries that has implemented the INSARAG Community Responder Training. An essential success factor is the careful localization of the training. Local trainers adapt the standardized content to the community-specific conditions—whether it is the local earthquake risk, typical types of disasters, regional building styles, or real examples from the area. This practical approach ensures that participants better understand the content and can directly apply the exercises in their daily lives.\n\nFrom October 13 to 16, 2025, the Joint Crisis Coordination Center (JCC) held the Community Responder Training Week for the second time in the Kurdistan Region of Iraq with the support by the German Agency for Technical Relief (THW). During this event, five CRT courses took place simultaneously across the entire Kurdistan Region of Iraq. A total of 125 participants from civil society, including teachers, volunteers, and agency staff, were trained in Erbil, Sulaymaniah, Halabja, Dohuk, and Raparin. Already in November 2024, the training was conducted simultaneously at five locations in the region.\n\nThe training is fully organized and conducted by JCC. THW provides administrative support and, together with a representative from the German Federal Ministry of the Interior, officially launched the event digitally. The training was mainly conducted by JCC master trainers supported by THW staff, who took part in the test-run of the CRT by THW in 2023 in Wesel, Germany. JCC has proven outstanding commitment furthering the trainings. Looking back, THW supported JCC conducting 43 Community Responder Trainings in the Kurdistan Region of Iraq. Up to today, around 1.000 Community Responders have been trained.\n\nThe Community Responder Training is a significant step toward better preparing the local population for potential crises, especially earthquakes. It is crucial for the protection and safety – not only of the communities in the Kurdistan Region Iraq. The CRT package can be downloaded here .",
+    "plain_text_zh": "INSARAG 社区响应者培训（CRT）旨在为社区层面的急救人员提供指导和培训。对地震的分析表明，大多数成功的救援是在最初几小时内由平民——邻居和家人——完成的，远早于专业救援力量能够到达。因此，CRT 旨在建立并发展民间社会的地方能力，以便在（尚）没有有组织的 USAR 救援队的地区应对突发事件。2023 年，ISG 批准了社区响应者培训包（当时名称为“急救人员培训 2.0”）。该培训涵盖 INSARAG 完整的理论和实践标准课程，重点包括灾害评估与信息收集、响应者队伍的组建、队伍内部的任务分配、简易搜索与救援行动、基础医疗救护以及报告。\n\n伊拉克库尔德地区是实施 INSARAG 社区响应者培训的五个国家之一。一个关键的成功因素是培训的精心本地化。本地培训师将标准化内容调整为适应社区具体情况——无论是当地的地震风险、典型的灾害类型、区域建筑风格，还是该地区的真实案例。这种实践性方法确保参与者更好地理解内容，并能在日常生活中直接应用所学演练。\n\n2025 年 10 月 13 日至 16 日，联合危机协调中心（JCC）在德国联邦技术救援署（THW）的支持下，第二次在伊拉克库尔德地区举办社区响应者培训周。在此期间，五期 CRT 课程在伊拉克库尔德地区各地同时举行。共有 125 名来自民间社会的参与者，包括教师、志愿者和机构工作人员，在埃尔比勒、苏莱曼尼亚、哈拉卜贾、杜胡克和拉帕林接受了培训。早在 2024 年 11 月，该培训就已在该地区的五个地点同时开展。\n\n该培训完全由 JCC 组织和实施。THW 提供行政支持，并与德国联邦内政部的一名代表一起以线上方式正式启动了该活动。培训主要由 JCC 的培训师主讲，并由 THW 工作人员协助，这些工作人员曾参加 2023 年在德国韦塞尔举行的 THW CRT 试运行。JCC 在推进培训方面展现了卓越的投入。回顾过去，THW 支持 JCC 在伊拉克库尔德地区开展了 43 期社区响应者培训。迄今为止，已有约 1,000 名社区响应者接受了培训。\n\n社区响应者培训是帮助当地民众更好地为潜在危机、尤其是地震做好准备的重要一步。这对保护和安全至关重要——不仅对伊拉克库尔德地区的社区而言。CRT 培训包可在此处下载。",
+    "char_count_en": 2950,
+    "char_count_zh": 938
+  },
+  "published_at": "2025-11-19T08:29:08+00:00",
+  "modified_at": "2025-11-19T08:32:44+00:00",
+  "authors": [
+    "INSARAG Secretariat"
+  ],
+  "categories": [
+    "Global News",
+    "global news"
+  ],
+  "tags": [],
+  "entities": {
+    "countries": [
+      "Iraq",
+      "Kurdistan",
+      "Germany"
+    ],
+    "regions": [
+      "Africa-Europe-Middle East"
+    ],
+    "organizations": [
+      "INSARAG",
+      "THW",
+      "ISG"
+    ],
+    "usar_teams": [],
+    "themes": [
+      "community responder",
+      "capacity building",
+      "governance",
+      "regional cooperation"
+    ]
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "https://insarag.org/wp-content/uploads/2025/11/202510_CRTweek_1-1024x768.jpg",
+      "local_path": "data/media/INSARAG-NEWS-16163-1.jpg",
+      "alt": "INSARAG Community Responder Training: Enhancing Civil Society Preparedness in the Kurdistan Region Iraq - image 1",
+      "caption": "",
+      "downloaded_bytes": 224940
+    },
+    {
+      "type": "image",
+      "url": "https://insarag.org/wp-content/uploads/2025/11/202510_CRTweek_4-1024x768.jpg",
+      "local_path": "data/media/INSARAG-NEWS-16163-2.jpg",
+      "alt": "INSARAG Community Responder Training: Enhancing Civil Society Preparedness in the Kurdistan Region Iraq - image 2",
+      "caption": "",
+      "downloaded_bytes": 218079
+    },
+    {
+      "type": "image",
+      "url": "https://insarag.org/wp-content/uploads/2025/11/202510_CRTweek_7-1024x768.jpg",
+      "local_path": "data/media/INSARAG-NEWS-16163-3.jpg",
+      "alt": "INSARAG Community Responder Training: Enhancing Civil Society Preparedness in the Kurdistan Region Iraq - image 3",
+      "caption": "",
+      "downloaded_bytes": 94979
+    }
+  ],
+  "attachments": [],
+  "knowledge": {
+    "chunk_strategy": "bilingual-paragraph-400",
+    "chunks": 5,
+    "embedding_model": "embedding-3",
+    "embedding_dim": 1024,
+    "indexed": false
+  },
+  "provenance": {
+    "crawled_at": "2026-10-26T11:00:21.858Z",
+    "crawler": "insarag-crawler/1.0",
+    "http_status": 200,
+    "parser": "wp-rest+html-normalize",
+    "content_sha256": "d636ee3c71d857cf10cd3c24334ceadbb0fb383970583636cc427b1c2f2f37c7",
+    "source_snapshot": "data/raw/insarag-community-responder-training-enhancing-civil-society-preparedness-in-the-kurdistan-region-iraq.json",
+    "translation_status": "done"
+  },
+  "translation": {
+    "method": "deepseek-chat",
+    "alignment": "sentence-1to1",
+    "translated_at": "2026-10-26T11:02:25.854Z"
+  }
+}

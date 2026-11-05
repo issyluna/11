@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数据资产 · INSARAG Hub</title>
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <main class="page">
+    <div class="container">
+      <div class="page-head">
+        <div class="title-wrap">
+          <div class="page-kicker">DATA ASSETS & VECTOR INDEX</div>
+          <h1>数据资产中心</h1>
+          <p>这里存放任务 09 采集的 10 个新闻 JSON 文件、任务 12 的术语库与英中平行语料，以及全部向量索引状态。点击文件即可查看完整元数据与原始 JSON。</p>
+        </div>
+        <div style="display:flex;gap:10px;align-items:center">
+          <button class="btn btn-primary btn-sm" id="btn-vectorize"><span data-icon="spark"></span> 一键向量化</button>
+          <span class="status-pill" id="vec-pill"><i></i> <span id="vec-text">索引就绪</span></span>
+        </div>
+      </div>
+
+      <div class="stat-strip">
+        <div class="stat-box blue"><b id="a-files">—</b><span>新闻 JSON 文件</span></div>
+        <div class="stat-box green"><b id="a-corpus">—</b><span>平行语料（1:1）</span></div>
+        <div class="stat-box gold"><b id="a-terms">—</b><span>标准术语</span></div>
+        <div class="stat-box"><b id="a-vec">—</b><span>已向量化切片</span></div>
+      </div>
+
+      <div class="card card-pad">
+        <div class="tabs" id="asset-tabs">
+          <button class="tab active" data-tab="files">新闻 JSON <span class="n" id="t-files">0</span></button>
+          <button class="tab" data-tab="corpus">平行语料 <span class="n" id="t-corpus">0</span></button>
+          <button class="tab" data-tab="terms">术语库 <span class="n" id="t-terms">0</span></button>
+          <button class="tab" data-tab="schema">元数据规范</button>
+        </div>
+
+        <div class="tab-panel active" data-panel="files">
+          <div style="display:flex;gap:10px;align-items:center;margin-bottom:14px;flex-wrap:wrap">
+            <span class="badge badge-news">data/news/*.json</span>
+            <span class="tiny muted" id="files-summary">加载中…</span>
+            <span class="tiny muted" style="margin-left:auto">Schema 1.0.0 · 每篇新闻一个文件</span>
+          </div>
+          <div class="asset-layout">
+            <div class="table-wrap">
+              <table class="data">
+                <thead><tr><th>文件 / 文档 ID</th><th>标题</th><th>大小</th><th>译文</th></tr></thead>
+                <tbody id="files-tbody"></tbody>
+              </table>
+            </div>
+            <div class="card card-pad" id="preview-panel">
+              <div class="empty"><div>选择左侧文件查看 JSON</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-panel" data-panel="corpus">
+          <div class="toolbar" style="margin-bottom:12px">
+            <div class="search-input"><span data-icon="search"></span><input id="corpus-q" type="search" placeholder="检索英文或中文句子…"></div>
+            <span class="tiny muted" id="corpus-summary" style="margin-left:auto"></span>
+          </div>
+          <div class="table-wrap"><table class="data"><thead><tr><th>句对</th><th style="width:40%">英文</th><th style="width:40%">中文</th><th>来源</th></tr></thead><tbody id="corpus-tbody"></tbody></table></div>
+          <div style="display:flex;justify-content:flex-end;gap:8px;margin-top:12px">
+            <button class="btn btn-ghost btn-sm" id="corpus-prev">上一页</button>
+            <span class="tiny muted" id="corpus-page" style="line-height:36px">1 / 1</span>
+            <button class="btn btn-ghost btn-sm" id="corpus-next">下一页</button>
+          </div>
+        </div>
+
+        <div class="tab-panel" data-panel="terms">
+          <div class="toolbar" style="margin-bottom:12px">
+            <div class="search-input"><span data-icon="search"></span><input id="term-q" type="search" placeholder="检索缩写、英文全称或中文名称…"></div>
+            <span class="tiny muted" id="term-summary" style="margin-left:auto"></span>
+          </div>
+          <div class="table-wrap"><table class="data"><thead><tr><th>编号</th><th>缩写</th><th>英文全称</th><th>中文名称</th><th>备注 / 来源</th></tr></thead><tbody id="term-tbody"></tbody></table></div>
+        </div>
+
+        <div class="tab-panel" data-panel="schema">
+          <div style="display:grid;grid-template-columns:1.05fr .95fr;gap:16px">
+            <div>
+              <h3 style="font-size:15px;margin-bottom:10px">四层元数据模型</h3>
+              <div class="meta-grid" style="grid-template-columns:1fr 1fr">
+                <div class="meta-item"><span>① SOURCE 来源层</span><b>发布机构、栏目、规范链接、WP 文章 ID、语言、版权说明</b></div>
+                <div class="meta-item"><span>② CONTENT 内容层</span><b>中英标题、摘要、段落数组、纯文本、字符数</b></div>
+                <div class="meta-item"><span>③ SEMANTIC 语义层</span><b>国家、区域、组织、USAR 队伍代码、主题标签</b></div>
+                <div class="meta-item"><span>④ PROVENANCE 溯源层</span><b>采集时间、解析器、HTTP 状态、SHA-256 内容指纹、原始快照</b></div>
+              </div>
+              <h3 style="font-size:15px;margin:18px 0 10px">设计原则</h3>
+              <div class="tiny" style="color:var(--text-2);line-height:1.9">
+                <p>· <b>稳定性</b>：doc_id 采用 WordPress 文章 ID，跨批次、跨年份不重复。</p>
+                <p>· <b>可追溯</b>：每条记录都有 canonical_url、内容指纹与原始响应快照。</p>
+                <p>· <b>可计算</b>：正文字段拆为段落数组，直接供切片与向量化流水线消费。</p>
+                <p>· <b>可扩展</b>：knowledge / translation 字段为后续索引与多语对齐预留。</p>
+                <p>· <b>可校验</b>：附带 JSON Schema，可对任意新入库新闻做结构校验。</p>
+              </div>
+            </div>
+            <div>
+              <div class="preview-head"><h3>JSON Schema 预览</h3><span class="badge badge-muted">news_schema.json</span></div>
+              <div class="json-view" id="schema-view" style="max-height:520px">加载中…</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="app-footer"></div>
+  <script src="/js/ui.js"></script>
+  <script src="/js/assets.js"></script>
+</body>
+</html>

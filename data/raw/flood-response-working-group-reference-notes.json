@@ -1,0 +1,172 @@
+{
+  "id": 15537,
+  "date": "2025-08-26T09:33:22",
+  "date_gmt": "2025-08-26T09:33:22",
+  "guid": {
+    "rendered": "https://insarag.org/?p=15537"
+  },
+  "modified": "2025-08-26T09:44:35",
+  "modified_gmt": "2025-08-26T09:44:35",
+  "slug": "flood-response-working-group-reference-notes",
+  "status": "publish",
+  "type": "post",
+  "link": "https://insarag.org/global-structures/global-news/flood-response-working-group-reference-notes/",
+  "title": {
+    "rendered": "Flood Response Working Group Reference Notes"
+  },
+  "content": {
+    "rendered": "\n<p>The Flood Response Working Group has successfully finalised its initial Terms of Reference with the publication of the Flood Response – Capacity Building &#8211; Reference Note. This document is accessible via the ‘<a href=\"https://insarag.org/technical-reference-library/flood-response/\" target=\"_blank\" rel=\"noreferrer noopener\">Technical Reference Library</a>’ tab . The Working Group is now dedicated to formulating its 2025–2027 Terms of Reference to advance further knowledge-sharing initiatives. Heartfelt congratulations to all members of the Flood Response Working Group and contributors to this reference note for their exemplary efforts.</p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>The Flood Response Working Group has successfully finalised its initial Terms of Reference with the publication of the Flood Response – Capacity Building &#8211; Reference Note. This document is accessible via the ‘Technical Reference Library’ tab . The Working Group is now dedicated to formulating its 2025–2027 Terms of Reference to advance further knowledge-sharing initiatives. [&hellip;]</p>\n",
+    "protected": false
+  },
+  "author": 33,
+  "featured_media": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "footnotes": ""
+  },
+  "categories": [
+    35
+  ],
+  "tags": [],
+  "class_list": [
+    "post-15537",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "hentry",
+    "category-global-news"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/posts/15537",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/users/33"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/comments?post=15537"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 4,
+        "href": "https://insarag.org/wp-json/wp/v2/posts/15537/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 15553,
+        "href": "https://insarag.org/wp-json/wp/v2/posts/15537/revisions/15553"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/media?parent=15537"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/categories?post=15537"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/tags?post=15537"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "_embedded": {
+    "wp:term": [
+      [
+        {
+          "id": 35,
+          "link": "https://insarag.org/global-structures/global-news/",
+          "name": "Global News",
+          "slug": "global-news",
+          "taxonomy": "category",
+          "_links": {
+            "self": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories/35",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/taxonomies/category"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "href": "https://insarag.org/wp-json/wp/v2/categories/29"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/posts?categories=35"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      ],
+      []
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "bigmodel_key": "YOUR_BIGMODEL_API_KEY_HERE",
+  "embedding_model": "embedding-3",
+  "embedding_dim": 1024,
+  "deepseek_key": "YOUR_DEEPSEEK_API_KEY_HERE",
+  "deepseek_model": "deepseek-chat",
+  "deepseek_base": "https://api.deepseek.com"
+}

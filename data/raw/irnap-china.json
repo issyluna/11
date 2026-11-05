@@ -1,0 +1,215 @@
+{
+  "id": 16631,
+  "date": "2025-12-16T14:21:36",
+  "date_gmt": "2025-12-16T14:21:36",
+  "guid": {
+    "rendered": "https://insarag.org/?p=16631"
+  },
+  "modified": "2025-12-17T07:07:47",
+  "modified_gmt": "2025-12-17T07:07:47",
+  "slug": "irnap-china",
+  "status": "publish",
+  "type": "post",
+  "link": "https://insarag.org/uncategorized/irnap-china/",
+  "title": {
+    "rendered": "IRNAP China"
+  },
+  "content": {
+    "rendered": "\n<p>INSARAG congratulates China, the 10 countries in the world on the successful completion and endorsement of its INSARAG Recognized National Accreditation Process (IRNAP).</p>\n\n\n\n<p></p>\n\n\n\n<p>This achievement highlights China’s strong commitment to INSARAG’s global standards and continuous efforts to enhance international cooperation and preparedness in Urban Search and Rescue (USAR) operations.</p>\n\n\n\n<p></p>\n\n\n\n<p>The INSARAG Secretariat commends the dedication and professionalism demonstrated throughout the process and looks forward to continued collaboration within our global network.</p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n\n\n\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex\">\n<figure class=\"wp-block-image size-large is-resized\"><img fetchpriority=\"high\" decoding=\"async\" width=\"800\" height=\"600\" data-id=\"16628\" src=\"https://insarag.org/wp-content/uploads/2025/12/fcd80289-fd58-453e-8fdc-16efc7b241a9.jpg\" alt=\"\" class=\"wp-image-16628\" style=\"width:391px;height:auto\" srcset=\"https://insarag.org/wp-content/uploads/2025/12/fcd80289-fd58-453e-8fdc-16efc7b241a9.jpg 800w, https://insarag.org/wp-content/uploads/2025/12/fcd80289-fd58-453e-8fdc-16efc7b241a9-300x225.jpg 300w, https://insarag.org/wp-content/uploads/2025/12/fcd80289-fd58-453e-8fdc-16efc7b241a9-768x576.jpg 768w\" sizes=\"(max-width: 800px) 100vw, 800px\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-large is-resized\"><img decoding=\"async\" width=\"800\" height=\"600\" data-id=\"16622\" src=\"https://insarag.org/wp-content/uploads/2025/12/21c0edbc-d242-4745-8c57-abcd9d50b2b0-1.jpg\" alt=\"\" class=\"wp-image-16622\" style=\"width:553px;height:auto\" srcset=\"https://insarag.org/wp-content/uploads/2025/12/21c0edbc-d242-4745-8c57-abcd9d50b2b0-1.jpg 800w, https://insarag.org/wp-content/uploads/2025/12/21c0edbc-d242-4745-8c57-abcd9d50b2b0-1-300x225.jpg 300w, https://insarag.org/wp-content/uploads/2025/12/21c0edbc-d242-4745-8c57-abcd9d50b2b0-1-768x576.jpg 768w\" sizes=\"(max-width: 800px) 100vw, 800px\" /></figure>\n</figure>\n\n\n\n<p></p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>INSARAG congratulates China, the 10 countries in the world on the successful completion and endorsement of its INSARAG Recognized National Accreditation Process (IRNAP). This achievement highlights China’s strong commitment to INSARAG’s global standards and continuous efforts to enhance international cooperation and preparedness in Urban Search and Rescue (USAR) operations. The INSARAG Secretariat commends the dedication [&hellip;]</p>\n",
+    "protected": false
+  },
+  "author": 33,
+  "featured_media": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "footnotes": ""
+  },
+  "categories": [
+    21,
+    1
+  ],
+  "tags": [],
+  "class_list": [
+    "post-16631",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "hentry",
+    "category-asia-pacific-news",
+    "category-uncategorized"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/posts/16631",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/users/33"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/comments?post=16631"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 4,
+        "href": "https://insarag.org/wp-json/wp/v2/posts/16631/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 16651,
+        "href": "https://insarag.org/wp-json/wp/v2/posts/16631/revisions/16651"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/media?parent=16631"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/categories?post=16631"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/tags?post=16631"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "_embedded": {
+    "wp:term": [
+      [
+        {
+          "id": 21,
+          "link": "https://insarag.org/regional-groups/asia-pacific/asia-pacific-news/",
+          "name": "Asia-Pacific News",
+          "slug": "asia-pacific-news",
+          "taxonomy": "category",
+          "_links": {
+            "self": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories/21",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/taxonomies/category"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "href": "https://insarag.org/wp-json/wp/v2/categories/16"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/posts?categories=21"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        },
+        {
+          "id": 1,
+          "link": "https://insarag.org/uncategorized/",
+          "name": "Uncategorized",
+          "slug": "uncategorized",
+          "taxonomy": "category",
+          "_links": {
+            "self": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/taxonomies/category"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/posts?categories=1"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      ],
+      []
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "id": 8165,
+  "date": "2021-11-26T11:21:48",
+  "date_gmt": "2021-11-26T11:21:48",
+  "guid": {
+    "rendered": "https://insarag.org/?p=8165"
+  },
+  "modified": "2021-11-26T11:22:46",
+  "modified_gmt": "2021-11-26T11:22:46",
+  "slug": "new-national-usar-doctrine-and-guidelines-integrating-insarag-standards-for-responders-in-france",
+  "status": "publish",
+  "type": "post",
+  "link": "https://insarag.org/regional-groups/africa-europe-middle-east/africa-europe-middle-east-news/new-national-usar-doctrine-and-guidelines-integrating-insarag-standards-for-responders-in-france/",
+  "title": {
+    "rendered": "New national USAR doctrine and guidelines integrating INSARAG standards for responders in France"
+  },
+  "content": {
+    "rendered": "\n<p>After several years of work, involving the entire French USAR community under the coordination of the French General Directorate for Civil Protection and Crisis Management/Office of Doctrine, Training and Equipment, the new national USAR doctrine was published in September 2021. This doctrine is complemented by the national operational and technical guidelines for all French USAR responders: from first responders to regional, national and international teams. As France had committed to, in the context of the INSARAG recognition of its national accreditation process in July 2017, all INSARAG standards have been integrated into these new national guidelines which are now a reference for all USAR operations on the French territory (including overseas) and allowing, if necessary, a perfect coordination with possible international USAR teams requested to assist in France.</p>\n\n\n\n<p>These guidelines in French are available following the links below, (it will be translated to English soon):<em><br></em><br><a rel=\"noreferrer noopener\" href=\"https://resana.numerique.gouv.fr/public/information/consulterAccessUrl?cle_url=138418266AmgPbwMPVGhXOlQyVzlUdFRqWmcCIwRtVD9VaAZnWmBTZgI3UzhVMFZhBD0=\" target=\"_blank\">https://resana.numerique.gouv.fr/public/information/consulterAccessUrl?cle_url=138418266AmgPbwMPVGhXOlQyVzlUdFRqWmcCIwRtVD9VaAZnWmBTZgI3UzhVMFZhBD0=</a></p>\n\n\n\n<p><br><a rel=\"noreferrer noopener\" href=\"https://resana.numerique.gouv.fr/public/information/consulterAccessUrl?cle_url=80420984VD4CYgAMCTVTPglvVjhQcFNtXGEFJARtBW5YZVw9CzEFMFRhWzAGY1BmBzc=\" target=\"_blank\">https://resana.numerique.gouv.fr/public/information/consulterAccessUrl?cle_url=80420984VD4CYgAMCTVTPglvVjhQcFNtXGEFJARtBW5YZVw9CzEFMFRhWzAGY1BmBzc=</a></p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>After several years of work, involving the entire French USAR community under the coordination of the French General Directorate for Civil Protection and Crisis Management/Office of Doctrine, Training and Equipment, the new national USAR doctrine was published in September 2021. This doctrine is complemented by the national operational and technical guidelines for all French USAR [&hellip;]</p>\n",
+    "protected": false
+  },
+  "author": 9,
+  "featured_media": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "footnotes": ""
+  },
+  "categories": [
+    28
+  ],
+  "tags": [],
+  "class_list": [
+    "post-8165",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "hentry",
+    "category-africa-europe-middle-east-news"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/posts/8165",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/users/9"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/comments?post=8165"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https://insarag.org/wp-json/wp/v2/posts/8165/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 8166,
+        "href": "https://insarag.org/wp-json/wp/v2/posts/8165/revisions/8166"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/media?parent=8165"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/categories?post=8165"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/tags?post=8165"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "_embedded": {
+    "wp:term": [
+      [
+        {
+          "id": 28,
+          "link": "https://insarag.org/regional-groups/africa-europe-middle-east/africa-europe-middle-east-news/",
+          "name": "Africa/Europe/Middle East News",
+          "slug": "africa-europe-middle-east-news",
+          "taxonomy": "category",
+          "_links": {
+            "self": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories/28",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/taxonomies/category"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "href": "https://insarag.org/wp-json/wp/v2/categories/22"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/posts?categories=28"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      ],
+      []
+    ]
+  }
+}

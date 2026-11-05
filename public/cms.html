@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>内容管理 · INSARAG Hub</title>
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <main class="page">
+    <div class="container">
+      <div class="page-head">
+        <div class="title-wrap">
+          <div class="page-kicker">CONTENT OPERATIONS</div>
+          <h1>内容管理系统</h1>
+          <p>对采集到的新闻执行增删改查。每次保存都会同步写入 SQLite 与磁盘 JSON 文件，并把该新闻标记为“待重新向量化”。</p>
+        </div>
+        <div style="display:flex;gap:10px">
+          <button class="btn btn-ghost btn-sm" id="btn-refresh"><span data-icon="refresh"></span> 刷新</button>
+          <button class="btn btn-primary" id="btn-create"><span data-icon="plus"></span> 新建新闻</button>
+        </div>
+      </div>
+
+      <div class="stat-strip">
+        <div class="stat-box blue"><b id="c-total">—</b><span>新闻总数</span></div>
+        <div class="stat-box green"><b id="c-done">—</b><span>已向量化</span></div>
+        <div class="stat-box gold"><b id="c-pending">—</b><span>待重新向量化</span></div>
+        <div class="stat-box"><b id="c-updated">—</b><span>最近更新时间</span></div>
+      </div>
+
+      <div class="toolbar">
+        <div class="search-input">
+          <span data-icon="search"></span>
+          <input id="cms-search" type="search" placeholder="按标题、正文、标签检索…">
+        </div>
+        <select class="input" id="cms-section" style="width:180px">
+          <option value="">全部栏目</option>
+          <option value="Global News">Global News</option>
+          <option value="Asia-Pacific News">Asia-Pacific News</option>
+          <option value="AEME News">AEME News</option>
+          <option value="IEC/R News">IEC/R News</option>
+          <option value="Manual Entry">手动录入</option>
+        </select>
+        <span class="tiny muted" style="margin-left:auto" id="cms-count">—</span>
+      </div>
+
+      <div class="table-wrap">
+        <table class="data">
+          <thead>
+            <tr>
+              <th style="width:46%">新闻标题</th>
+              <th>栏目</th>
+              <th>发布日期</th>
+              <th>字数（中/英）</th>
+              <th>向量状态</th>
+              <th style="width:160px">操作</th>
+            </tr>
+          </thead>
+          <tbody id="cms-tbody"></tbody>
+        </table>
+      </div>
+
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-top:16px">
+        <span class="tiny muted">数据双写：SQLite news 表 ↔ data/news/*.json</span>
+        <div style="display:flex;gap:8px">
+          <button class="btn btn-ghost btn-sm" id="page-prev">上一页</button>
+          <span class="tiny muted" id="page-info" style="line-height:36px">—</span>
+          <button class="btn btn-ghost btn-sm" id="page-next">下一页</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="modal-root"></div>
+  <div id="app-footer"></div>
+  <script src="/js/ui.js"></script>
+  <script src="/js/cms.js"></script>
+</body>
+</html>

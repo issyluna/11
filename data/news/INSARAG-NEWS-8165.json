@@ -1,0 +1,87 @@
+{
+  "$schema": "../news_schema.json",
+  "schema_version": "1.0.0",
+  "doc_id": "INSARAG-NEWS-8165",
+  "record_type": "news",
+  "seq": 4,
+  "source": {
+    "publisher": "INSARAG",
+    "publisher_full": "International Search and Rescue Advisory Group (INSARAG), UN OCHA",
+    "site": "https://insarag.org",
+    "section": "AEME News",
+    "canonical_url": "https://insarag.org/regional-groups/africa-europe-middle-east/africa-europe-middle-east-news/new-national-usar-doctrine-and-guidelines-integrating-insarag-standards-for-responders-in-france/",
+    "wp_post_id": 8165,
+    "language": "en",
+    "license_note": "版权归 INSARAG / 联合国人道主义事务协调办公室（OCHA）所有，此处仅用于教学与研究。"
+  },
+  "title_en": "New national USAR doctrine and guidelines integrating INSARAG standards for responders in France",
+  "title_zh": "面向法国救援人员的、整合INSARAG标准的新国家USAR doctrine与指南",
+  "slug": "new-national-usar-doctrine-and-guidelines-integrating-insarag-standards-for-responders-in-france",
+  "summary_en": "After several years of work, involving the entire French USAR community under the coordination of the French General Directorate for Civil Protection and Crisis Management/Office of Doctrine, Training and Equipment, the new national USAR doctrine was published in September 2021. This doctrine is complemented by the national operational and technical guidelines for all French USAR […]",
+  "summary_zh": "经过数年工作，在法国民防与危机管理总局/doctrine、培训与装备办公室的协调下，整个法国USAR界参与其中，新的国家USAR doctrine于2021年9月发布。该doctrine由国家行动与技术指南予以补充，适用于所有法国USAR救援人员：从第一响应者到地区、国家和国际救援队。正如法国在2017年7月其国家认证流程获得INSARAG认可时所承诺的那样，所有INSARAG标准均已纳入这些新的国家指南，这些指南现已成为法国领土（包括海外）所有USAR行动的参考，并在必要时可与可能受邀援助法国的国际USAR救援队实现完美协调。",
+  "body": {
+    "paragraphs_en": [
+      "After several years of work, involving the entire French USAR community under the coordination of the French General Directorate for Civil Protection and Crisis Management/Office of Doctrine, Training and Equipment, the new national USAR doctrine was published in September 2021. This doctrine is complemented by the national operational and technical guidelines for all French USAR responders: from first responders to regional, national and international teams. As France had committed to, in the context of the INSARAG recognition of its national accreditation process in July 2017, all INSARAG standards have been integrated into these new national guidelines which are now a reference for all USAR operations on the French territory (including overseas) and allowing, if necessary, a perfect coordination with possible international USAR teams requested to assist in France.",
+      "These guidelines in French are available following the links below, (it will be translated to English soon): https://resana.numerique.gouv.fr/public/information/consulterAccessUrl?cle_url=138418266AmgPbwMPVGhXOlQyVzlUdFRqWmcCIwRtVD9VaAZnWmBTZgI3UzhVMFZhBD0=",
+      "https://resana.numerique.gouv.fr/public/information/consulterAccessUrl?cle_url=80420984VD4CYgAMCTVTPglvVjhQcFNtXGEFJARtBW5YZVw9CzEFMFRhWzAGY1BmBzc="
+    ],
+    "paragraphs_zh": [
+      "经过数年工作，在法国民防与危机管理总局/doctrine、培训与装备办公室的协调下，整个法国USAR界参与其中，新的国家USAR doctrine于2021年9月发布。该doctrine由国家行动与技术指南予以补充，适用于所有法国USAR救援人员：从第一响应者到地区、国家和国际救援队。正如法国在2017年7月其国家认证流程获得INSARAG认可时所承诺的那样，所有INSARAG标准均已纳入这些新的国家指南，这些指南现已成为法国领土（包括海外）所有USAR行动的参考，并在必要时可与可能受邀援助法国的国际USAR救援队实现完美协调。",
+      "这些法文指南可通过以下链接获取（英文版将很快提供）：https://resana.numerique.gouv.fr/public/information/consulterAccessUrl?cle_url=138418266AmgPbwMPVGhXOlQyVzlUdFRqWmcCIwRtVD9VaAZnWmBTZgI3UzhVMFZhBD0=",
+      "https://resana.numerique.gouv.fr/public/information/consulterAccessUrl?cle_url=80420984VD4CYgAMCTVTPglvVjhQcFNtXGEFJARtBW5YZVw9CzEFMFRhWzAGY1BmBzc="
+    ],
+    "plain_text_en": "After several years of work, involving the entire French USAR community under the coordination of the French General Directorate for Civil Protection and Crisis Management/Office of Doctrine, Training and Equipment, the new national USAR doctrine was published in September 2021. This doctrine is complemented by the national operational and technical guidelines for all French USAR responders: from first responders to regional, national and international teams. As France had committed to, in the context of the INSARAG recognition of its national accreditation process in July 2017, all INSARAG standards have been integrated into these new national guidelines which are now a reference for all USAR operations on the French territory (including overseas) and allowing, if necessary, a perfect coordination with possible international USAR teams requested to assist in France.\n\nThese guidelines in French are available following the links below, (it will be translated to English soon): https://resana.numerique.gouv.fr/public/information/consulterAccessUrl?cle_url=138418266AmgPbwMPVGhXOlQyVzlUdFRqWmcCIwRtVD9VaAZnWmBTZgI3UzhVMFZhBD0=\n\nhttps://resana.numerique.gouv.fr/public/information/consulterAccessUrl?cle_url=80420984VD4CYgAMCTVTPglvVjhQcFNtXGEFJARtBW5YZVw9CzEFMFRhWzAGY1BmBzc=",
+    "plain_text_zh": "经过数年工作，在法国民防与危机管理总局/doctrine、培训与装备办公室的协调下，整个法国USAR界参与其中，新的国家USAR doctrine于2021年9月发布。该doctrine由国家行动与技术指南予以补充，适用于所有法国USAR救援人员：从第一响应者到地区、国家和国际救援队。正如法国在2017年7月其国家认证流程获得INSARAG认可时所承诺的那样，所有INSARAG标准均已纳入这些新的国家指南，这些指南现已成为法国领土（包括海外）所有USAR行动的参考，并在必要时可与可能受邀援助法国的国际USAR救援队实现完美协调。\n\n这些法文指南可通过以下链接获取（英文版将很快提供）：https://resana.numerique.gouv.fr/public/information/consulterAccessUrl?cle_url=138418266AmgPbwMPVGhXOlQyVzlUdFRqWmcCIwRtVD9VaAZnWmBTZgI3UzhVMFZhBD0=\n\nhttps://resana.numerique.gouv.fr/public/information/consulterAccessUrl?cle_url=80420984VD4CYgAMCTVTPglvVjhQcFNtXGEFJARtBW5YZVw9CzEFMFRhWzAGY1BmBzc=",
+    "char_count_en": 1287,
+    "char_count_zh": 592
+  },
+  "published_at": "2021-11-26T11:21:48+00:00",
+  "modified_at": "2021-11-26T11:22:46+00:00",
+  "authors": [
+    "INSARAG Secretariat"
+  ],
+  "categories": [
+    "Africa/Europe/Middle East News"
+  ],
+  "tags": [],
+  "entities": {
+    "countries": [
+      "France"
+    ],
+    "regions": [
+      "Africa-Europe-Middle East"
+    ],
+    "organizations": [
+      "INSARAG"
+    ],
+    "usar_teams": [],
+    "themes": [
+      "community responder",
+      "capacity building",
+      "regional cooperation"
+    ]
+  },
+  "media": [],
+  "attachments": [],
+  "knowledge": {
+    "chunk_strategy": "bilingual-paragraph-400",
+    "chunks": 3,
+    "embedding_model": "embedding-3",
+    "embedding_dim": 1024,
+    "indexed": false
+  },
+  "provenance": {
+    "crawled_at": "2026-10-26T11:00:28.516Z",
+    "crawler": "insarag-crawler/1.0",
+    "http_status": 200,
+    "parser": "wp-rest+html-normalize",
+    "content_sha256": "a7f55b13e8fb96a85363b2317b466f2984a23515ff0408d69326fee822287316",
+    "source_snapshot": "data/raw/new-national-usar-doctrine-and-guidelines-integrating-insarag-standards-for-responders-in-france.json",
+    "translation_status": "done"
+  },
+  "translation": {
+    "method": "deepseek-chat",
+    "alignment": "sentence-1to1",
+    "translated_at": "2026-10-26T11:02:42.337Z"
+  }
+}

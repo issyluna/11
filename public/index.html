@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INSARAG Knowledge & Language Hub</title>
+  <meta name="description" content="INSARAG 新闻知识库、术语库、平行语料库与东盟多语智能翻译平台">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div id="app-header"></div>
+
+  <main class="page">
+    <div class="container">
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow"><i></i> INSARAG KNOWLEDGE INFRASTRUCTURE</span>
+          <h1>让救援知识<br><em>被检索、被理解、被翻译</em></h1>
+          <p class="lead">从 INSARAG 官网新闻出发，构建一条完整的知识流水线：结构化采集 → 向量化索引 → RAG 可溯源问答 → 东盟多语种翻译。每一项结论，都能回到原文。</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/qa">开始智能问答 <span data-icon="arrow"></span></a>
+            <a class="btn btn-ghost" href="/translate">东盟多语翻译 <span data-icon="translate"></span></a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat"><b id="stat-news">0</b><span>结构化新闻</span></div>
+            <div class="hero-stat"><b id="stat-terms">0</b><span>标准术语</span></div>
+            <div class="hero-stat"><b id="stat-corpus">0</b><span>英中平行语料</span></div>
+            <div class="hero-stat"><b id="stat-vectors">0</b><span>向量切片</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="orbit-wrap">
+            <div class="orbit"></div>
+            <div class="orbit orbit-2"></div>
+            <div class="orbit orbit-3"></div>
+            <div class="globe-core">
+              <svg viewBox="0 0 200 200" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.1">
+                <circle cx="100" cy="100" r="78"/>
+                <ellipse cx="100" cy="100" rx="78" ry="30"/>
+                <ellipse cx="100" cy="100" rx="78" ry="58"/>
+                <ellipse cx="100" cy="100" rx="30" ry="78"/>
+                <ellipse cx="100" cy="100" rx="58" ry="78"/>
+                <path d="M22 100h156M100 22v156"/>
+                <circle cx="145" cy="68" r="5" fill="#a5f3fc" stroke="none"/>
+                <circle cx="66" cy="132" r="4" fill="#fcd34d" stroke="none"/>
+                <circle cx="120" cy="142" r="3.5" fill="#a7f3d0" stroke="none"/>
+              </svg>
+            </div>
+            <div class="float-card fc-1"><span class="dot" style="background:#38cdf0;box-shadow:0 0 10px #38cdf0"></span><div><b>10 篇</b><br><span class="muted">官网新闻已入库</span></div></div>
+            <div class="float-card fc-2"><span class="dot" style="background:#f3b64a;box-shadow:0 0 10px #f3b64a"></span><div><b>1:1 句级对齐</b><br><span class="muted">英中平行语料</span></div></div>
+            <div class="float-card fc-3"><span class="dot" style="background:#35d49b;box-shadow:0 0 10px #35d49b"></span><div><b>embedding-3</b><br><span class="muted">1024 维语义索引</span></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>一套系统，六个能力模块</h2>
+            <p>采集、管理、检索、问答、翻译与数据治理，全部打通</p>
+          </div>
+        </div>
+        <div class="module-grid">
+          <a class="card card-pad card-hover module-card" href="/news">
+            <span class="module-icon" data-icon="news"></span>
+            <h3>新闻知识库</h3>
+            <p>10 条 INSARAG 官网新闻，双语正文、实体标签、配图与 PDF 附件完整保留。</p>
+            <span class="go">浏览新闻 <span data-icon="arrow"></span></span>
+          </a>
+          <a class="card card-pad card-hover module-card" href="/cms">
+            <span class="module-icon" data-icon="cms"></span>
+            <h3>内容管理系统</h3>
+            <p>对新闻执行增删改查，修改即同步 SQLite 与磁盘 JSON 文件，保持数据一致。</p>
+            <span class="go">进入 CMS <span data-icon="arrow"></span></span>
+          </a>
+          <a class="card card-pad card-hover module-card" href="/qa">
+            <span class="module-icon" data-icon="qa"></span>
+            <h3>RAG 智能问答</h3>
+            <p>问题向量化后跨新闻、术语、语料三库检索，Deepseek 流式作答并标注可追溯来源。</p>
+            <span class="go">开始提问 <span data-icon="arrow"></span></span>
+          </a>
+          <a class="card card-pad card-hover module-card" href="/translate">
+            <span class="module-icon" data-icon="translate"></span>
+            <h3>东盟多语翻译</h3>
+            <p>覆盖中文、英语、泰语、越南语、印尼语、马来语等十种语言，术语与语料双重增强。</p>
+            <span class="go">打开翻译台 <span data-icon="arrow"></span></span>
+          </a>
+          <a class="card card-pad card-hover module-card" href="/assets">
+            <span class="module-icon" data-icon="assets"></span>
+            <h3>数据资产中心</h3>
+            <p>查看新闻 JSON、术语库与平行语料，校验元数据规范与向量化状态。</p>
+            <span class="go">查看数据 <span data-icon="arrow"></span></span>
+          </a>
+          <a class="card card-pad card-hover module-card" href="/database">
+            <span class="module-icon" data-icon="database"></span>
+            <h3>数据库结构</h3>
+            <p>六张核心表、字段约束与表间关系一目了然，理解知识库的底层组织方式。</p>
+            <span class="go">查看结构 <span data-icon="arrow"></span></span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>最新入库新闻</h2>
+            <p>中英双语正文，全部完成向量化，可直接用于问答与翻译检索</p>
+          </div>
+          <a class="btn btn-ghost btn-sm" href="/news">查看全部 <span data-icon="arrow"></span></a>
+        </div>
+        <div class="news-grid" id="latest-news">
+          <div class="card card-pad"><div class="skeleton" style="height:150px"></div></div>
+          <div class="card card-pad"><div class="skeleton" style="height:150px"></div></div>
+          <div class="card card-pad"><div class="skeleton" style="height:150px"></div></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>知识流水线</h2>
+            <p>从网页到可追溯答案的五个步骤，每一步都留有数据证据</p>
+          </div>
+        </div>
+        <div class="card card-pad" style="padding:34px 26px">
+          <div class="pipeline">
+            <div class="pipe-step"><div class="pipe-num">01</div><h4>采集 Crawl</h4><p>WordPress REST API<br>10 篇新闻 + 原文快照</p></div>
+            <div class="pipe-step"><div class="pipe-num">02</div><h4>结构化 JSON</h4><p>来源 / 内容 / 语义 / 溯源<br>四层元数据模型</p></div>
+            <div class="pipe-step"><div class="pipe-num">03</div><h4>切片 Chunk</h4><p>段落级双语切片<br>179 个语义单元</p></div>
+            <div class="pipe-step"><div class="pipe-num">04</div><h4>向量 Embed</h4><p>embedding-3<br>1024 维余弦检索</p></div>
+            <div class="pipe-step"><div class="pipe-num">05</div><h4>检索生成 RAG</h4><p>Top-K 召回 + 引用编号<br>Deepseek 流式输出</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>三个知识底座</h2>
+            <p>新闻提供事实，术语保证规范，平行语料提供表达范式</p>
+          </div>
+        </div>
+        <div class="module-grid" style="grid-template-columns:repeat(3,1fr)">
+          <div class="card card-pad">
+            <div style="display:flex;align-items:center;justify-content:space-between">
+              <span class="badge badge-news">新闻库 NEWS</span>
+              <b style="font-size:26px" id="cap-news">0</b>
+            </div>
+            <h3 style="margin-top:16px">事实与语境</h3>
+            <p class="muted" style="font-size:12.8px;margin-top:8px">每条新闻保留标题、双语正文、发布时间、栏目、国家/组织/队伍实体、配图与原文链接。</p>
+          </div>
+          <div class="card card-pad">
+            <div style="display:flex;align-items:center;justify-content:space-between">
+              <span class="badge badge-term">术语库 TERMS</span>
+              <b style="font-size:26px" id="cap-terms">0</b>
+            </div>
+            <h3 style="margin-top:16px">规范与一致</h3>
+            <p class="muted" style="font-size:12.8px;margin-top:8px">来自《INSARAG 国际搜索与救援指南》中文版缩略词表，翻译时作为强制术语表注入提示词。</p>
+          </div>
+          <div class="card card-pad">
+            <div style="display:flex;align-items:center;justify-content:space-between">
+              <span class="badge badge-corpus">语料库 CORPUS</span>
+              <b style="font-size:26px" id="cap-corpus">0</b>
+            </div>
+            <h3 style="margin-top:16px">表达与对齐</h3>
+            <p class="muted" style="font-size:12.8px;margin-top:8px">英中 1:1 句级对齐，保留来源文档、段落与句序，既用于检索，也用于翻译风格参考。</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div id="app-footer"></div>
+
+  <script src="/js/ui.js"></script>
+  <script src="/js/home.js"></script>
+</body>
+</html>

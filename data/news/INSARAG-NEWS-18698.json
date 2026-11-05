@@ -1,0 +1,102 @@
+{
+  "$schema": "../news_schema.json",
+  "schema_version": "1.0.0",
+  "doc_id": "INSARAG-NEWS-18698",
+  "record_type": "news",
+  "seq": 5,
+  "source": {
+    "publisher": "INSARAG",
+    "publisher_full": "International Search and Rescue Advisory Group (INSARAG), UN OCHA",
+    "site": "https://insarag.org",
+    "section": "IEC/R News",
+    "canonical_url": "https://insarag.org/uncategorized/iec-egy-01/",
+    "wp_post_id": 18698,
+    "language": "en",
+    "license_note": "版权归 INSARAG / 联合国人道主义事务协调办公室（OCHA）所有，此处仅用于教学与研究。"
+  },
+  "title_en": "IEC EGY-01",
+  "title_zh": "IEC EGY-01",
+  "slug": "iec-egy-01",
+  "summary_en": "Congratulations to the Egyptian Search & Rescue Team EGY-01 for successfully passing the INSARAG External Classification (IEC) as a Medium team from 11 to 15 August 2026 in Egypt! This important achievement highlights the team’s strong operational capabilities, professionalism, and commitment to international search and rescue standards. The classification process, hosted in Egypt, demonstrated the […]",
+  "summary_zh": "祝贺埃及搜救队 EGY-01 于 2026 年 8 月 11 日至 15 日在埃及成功通过 INSARAG 国际外部评估（IEC），获评中型救援队！这一重要成就彰显了该队强大的行动能力、专业精神以及对国际搜救标准的承诺。此次在埃及主办的评估流程展示了该队在复杂紧急环境中有效开展行动并为协调一致的国际响应工作作出贡献的能力。",
+  "body": {
+    "paragraphs_en": [
+      "Congratulations to the Egyptian Search & Rescue Team EGY-01 for successfully passing the INSARAG External Classification (IEC) as a Medium team from 11 to 15 August 2026 in Egypt! This important achievement highlights the team’s strong operational capabilities, professionalism, and commitment to international search and rescue standards. The classification process, hosted in Egypt, demonstrated the team’s ability to operate effectively in complex emergency environments and to contribute to coordinated international response efforts. This successful classification reflects Egypt’s continued dedication to strengthening global emergency response capacity. The INSARAG Secretariat extends its most sincere congratulations."
+    ],
+    "paragraphs_zh": [
+      "祝贺埃及搜救队 EGY-01 于 2026 年 8 月 11 日至 15 日在埃及成功通过 INSARAG 国际外部评估（IEC），获评中型救援队！这一重要成就彰显了该队强大的行动能力、专业精神以及对国际搜救标准的承诺。此次在埃及主办的评估流程展示了该队在复杂紧急环境中有效开展行动并为协调一致的国际响应工作作出贡献的能力。此次成功通过评估体现了埃及对加强全球应急响应能力的持续投入。INSARAG 秘书处致以最诚挚的祝贺。"
+    ],
+    "plain_text_en": "Congratulations to the Egyptian Search & Rescue Team EGY-01 for successfully passing the INSARAG External Classification (IEC) as a Medium team from 11 to 15 August 2026 in Egypt! This important achievement highlights the team’s strong operational capabilities, professionalism, and commitment to international search and rescue standards. The classification process, hosted in Egypt, demonstrated the team’s ability to operate effectively in complex emergency environments and to contribute to coordinated international response efforts. This successful classification reflects Egypt’s continued dedication to strengthening global emergency response capacity. The INSARAG Secretariat extends its most sincere congratulations.",
+    "plain_text_zh": "祝贺埃及搜救队 EGY-01 于 2026 年 8 月 11 日至 15 日在埃及成功通过 INSARAG 国际外部评估（IEC），获评中型救援队！这一重要成就彰显了该队强大的行动能力、专业精神以及对国际搜救标准的承诺。此次在埃及主办的评估流程展示了该队在复杂紧急环境中有效开展行动并为协调一致的国际响应工作作出贡献的能力。此次成功通过评估体现了埃及对加强全球应急响应能力的持续投入。INSARAG 秘书处致以最诚挚的祝贺。",
+    "char_count_en": 726,
+    "char_count_zh": 212
+  },
+  "published_at": "2026-08-17T09:01:39+00:00",
+  "modified_at": "2026-08-17T09:09:14+00:00",
+  "authors": [
+    "INSARAG Secretariat"
+  ],
+  "categories": [
+    "IEC/R News",
+    "Uncategorized"
+  ],
+  "tags": [],
+  "entities": {
+    "countries": [
+      "Egypt"
+    ],
+    "regions": [
+      "Africa-Europe-Middle East"
+    ],
+    "organizations": [
+      "INSARAG",
+      "IEC"
+    ],
+    "usar_teams": [
+      "EGY-01"
+    ],
+    "themes": [
+      "IEC/R classification"
+    ]
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "https://insarag.org/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-15-at-12.58.24-1-1-2048x690.jpeg",
+      "local_path": "data/media/INSARAG-NEWS-18698-1.jpg",
+      "alt": "IEC EGY-01 - image 1",
+      "caption": "",
+      "downloaded_bytes": 303210
+    },
+    {
+      "type": "image",
+      "url": "https://insarag.org/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-15-at-12.58.24-1536x1152.jpeg",
+      "local_path": "data/media/INSARAG-NEWS-18698-2.jpg",
+      "alt": "IEC EGY-01 - image 2",
+      "caption": "",
+      "downloaded_bytes": 379048
+    }
+  ],
+  "attachments": [],
+  "knowledge": {
+    "chunk_strategy": "bilingual-paragraph-400",
+    "chunks": 1,
+    "embedding_model": "embedding-3",
+    "embedding_dim": 1024,
+    "indexed": false
+  },
+  "provenance": {
+    "crawled_at": "2026-10-26T11:00:30.908Z",
+    "crawler": "insarag-crawler/1.0",
+    "http_status": 200,
+    "parser": "wp-rest+html-normalize",
+    "content_sha256": "7a5f2605d37fc0bc43d5edc55cf6ea2a2944c98fbce8f8ba55d47ff6fdfbe163",
+    "source_snapshot": "data/raw/iec-egy-01.json",
+    "translation_status": "done"
+  },
+  "translation": {
+    "method": "deepseek-chat",
+    "alignment": "sentence-1to1",
+    "translated_at": "2026-10-26T11:02:36.342Z"
+  }
+}

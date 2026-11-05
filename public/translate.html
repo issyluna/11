@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>东盟多语翻译 · INSARAG Hub</title>
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <main class="page">
+    <div class="container">
+      <div class="page-head">
+        <div class="title-wrap">
+          <div class="page-kicker">ASEAN MULTILINGUAL TRANSLATION</div>
+          <h1>东盟多语种翻译</h1>
+          <p>以 Deepseek 为翻译内核，融合术语库、英中平行语料与 INSARAG 新闻背景。右侧面板实时展示术语命中、语料参考与新闻来源，让译文可解释、可追溯。</p>
+        </div>
+        <div style="display:flex;gap:10px;align-items:center">
+          <span class="status-pill"><i></i> 术语 + 语料 + 新闻 RAG</span>
+        </div>
+      </div>
+
+      <div class="translate-layout">
+        <section class="card trans-panel">
+          <div class="trans-head">
+            <span class="lang-pill">源语言 · 自动检测</span>
+            <span class="detect-pill" id="detect">等待输入</span>
+            <button class="icon-btn" id="btn-sample" title="填入示例" style="margin-left:auto"><span data-icon="file"></span></button>
+            <button class="icon-btn" id="btn-clear" title="清空"><span data-icon="trash"></span></button>
+          </div>
+          <div class="trans-area">
+            <textarea id="source" placeholder="输入或粘贴需要翻译的原文。支持中文、英语及东盟主要语言…"></textarea>
+          </div>
+          <div class="trans-foot">
+            <span class="tiny muted" id="char-count">0 字符</span>
+            <span class="tiny muted" style="margin-left:auto">术语命中 <b id="foot-gloss" style="color:var(--gold)">0</b> · 语料 <b id="foot-corpus" style="color:var(--green)">0</b> · 新闻 <b id="foot-news" style="color:#8fdcff">0</b></span>
+          </div>
+        </section>
+
+        <section class="card trans-panel">
+          <div class="trans-head">
+            <span class="lang-pill">目标语言</span>
+            <select class="input" id="target" style="height:34px;margin-left:auto">
+              <option value="th">泰语 · ไทย</option>
+              <option value="en">英语 · English</option>
+              <option value="zh">简体中文</option>
+              <option value="vi">越南语 · Tiếng Việt</option>
+              <option value="id">印尼语 · Bahasa Indonesia</option>
+              <option value="ms">马来语 · Bahasa Melayu</option>
+              <option value="fil">菲律宾语 · Filipino</option>
+              <option value="km">高棉语 · ភាសាខ្មែរ</option>
+              <option value="lo">老挝语 · ພາສາລາວ</option>
+              <option value="my">缅甸语 · မြန်မာဘာသာ</option>
+            </select>
+            <button class="icon-btn" id="btn-copy" title="复制译文"><span data-icon="layers"></span></button>
+          </div>
+          <div class="trans-area">
+            <div class="trans-output" id="output"><span class="muted" style="font-size:13.5px">译文将在这里流式生成，并自动附上术语、语料与新闻来源。</span></div>
+          </div>
+          <div class="trans-foot">
+            <button class="btn btn-primary" id="btn-translate"><span data-icon="translate"></span> 开始翻译</button>
+            <span class="tiny muted" id="trans-meta" style="margin-left:auto">Deepseek · 流式输出</span>
+          </div>
+        </section>
+      </div>
+
+      <section class="section" style="margin-top:26px">
+        <div class="card card-pad">
+          <div class="tabs" id="rag-tabs">
+            <button class="tab active" data-tab="glossary">术语命中 <span class="n" id="n-gloss">0</span></button>
+            <button class="tab" data-tab="corpus">平行语料 <span class="n" id="n-corpus">0</span></button>
+            <button class="tab" data-tab="news">新闻背景 <span class="n" id="n-news">0</span></button>
+            <button class="tab" data-tab="trace">增强链路</button>
+          </div>
+          <div class="tab-panel active" data-panel="glossary">
+            <div class="glossary-grid" id="glossary-list">
+              <div class="empty" style="grid-column:1/-1;padding:30px">翻译后显示命中的标准术语</div>
+            </div>
+          </div>
+          <div class="tab-panel" data-panel="corpus">
+            <div class="source-grid" id="corpus-list">
+              <div class="empty" style="grid-column:1/-1;padding:30px">翻译后显示语义相近的英中平行语料</div>
+            </div>
+          </div>
+          <div class="tab-panel" data-panel="news">
+            <div class="source-grid" id="news-list">
+              <div class="empty" style="grid-column:1/-1;padding:30px">翻译后显示相关新闻背景</div>
+            </div>
+          </div>
+          <div class="tab-panel" data-panel="trace">
+            <div class="pipeline" style="margin:10px 0 6px">
+              <div class="pipe-step"><div class="pipe-num">01</div><h4>术语强制对齐</h4><p>扫描原文命中标准术语，写入提示词作为硬约束</p></div>
+              <div class="pipe-step"><div class="pipe-num">02</div><h4>语义检索语料</h4><p>原文向量化，召回 1:1 英中句对提供表达范式</p></div>
+              <div class="pipe-step"><div class="pipe-num">03</div><h4>新闻语境校验</h4><p>召回相关新闻，补足机构、地区与事件背景</p></div>
+              <div class="pipe-step"><div class="pipe-num">04</div><h4>流式翻译</h4><p>Deepseek 依据增强上下文逐字生成译文</p></div>
+              <div class="pipe-step"><div class="pipe-num">05</div><h4>来源回填</h4><p>把术语、语料、新闻作为可追溯来源附在页面</p></div>
+            </div>
+            <div class="tiny muted">术语来自《INSARAG 国际搜索与救援指南》中文版；语料由 10 篇官网新闻逐句对齐生成；新闻来源均保留 insarag.org 原文链接。</div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div id="app-footer"></div>
+  <script src="/js/ui.js"></script>
+  <script src="/js/translate.js"></script>
+</body>
+</html>

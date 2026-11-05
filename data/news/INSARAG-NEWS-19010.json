@@ -1,0 +1,85 @@
+{
+  "$schema": "../news_schema.json",
+  "schema_version": "1.0.0",
+  "doc_id": "INSARAG-NEWS-19010",
+  "record_type": "news",
+  "seq": 10,
+  "source": {
+    "publisher": "INSARAG",
+    "publisher_full": "International Search and Rescue Advisory Group (INSARAG), UN OCHA",
+    "site": "https://insarag.org",
+    "section": "IEC/R News",
+    "canonical_url": "https://insarag.org/uncategorized/iec-ger-01/",
+    "wp_post_id": 19010,
+    "language": "en",
+    "license_note": "版权归 INSARAG / 联合国人道主义事务协调办公室（OCHA）所有，此处仅用于教学与研究。"
+  },
+  "title_en": "IEC GER-01",
+  "title_zh": "IEC GER-01",
+  "slug": "iec-ger-01",
+  "summary_en": "The Technisches Hilfswerk (THW) Schnell Einsatz Einheit Bergung Ausland (SEEBA) Team (GER-01) has been successfully reclassified from Heavy to Medium USAR team following the classification process conducted from 5 to 9 October 2026 in Austria. The INSARAG Secretariat extends its sincerest congratulations.",
+  "summary_zh": "德国技术援助署（THW）海外救援快速行动队（SEEBA）（GER-01）在2026年10月5日至9日于奥地利开展的分级评定流程后，已成功从重型USAR救援队重新分级为中型USAR救援队。INSARAG秘书处致以最诚挚的祝贺。",
+  "body": {
+    "paragraphs_en": [
+      "The Technisches Hilfswerk (THW) Schnell Einsatz Einheit Bergung Ausland (SEEBA) Team (GER-01) has been successfully reclassified from Heavy to Medium USAR team following the classification process conducted from 5 to 9 October 2026 in Austria. The INSARAG Secretariat extends its sincerest congratulations."
+    ],
+    "paragraphs_zh": [
+      "德国技术援助署（THW）海外救援快速行动队（SEEBA）（GER-01）在2026年10月5日至9日于奥地利开展的分级评定流程后，已成功从重型USAR救援队重新分级为中型USAR救援队。INSARAG秘书处致以最诚挚的祝贺。"
+    ],
+    "plain_text_en": "The Technisches Hilfswerk (THW) Schnell Einsatz Einheit Bergung Ausland (SEEBA) Team (GER-01) has been successfully reclassified from Heavy to Medium USAR team following the classification process conducted from 5 to 9 October 2026 in Austria. The INSARAG Secretariat extends its sincerest congratulations.",
+    "plain_text_zh": "德国技术援助署（THW）海外救援快速行动队（SEEBA）（GER-01）在2026年10月5日至9日于奥地利开展的分级评定流程后，已成功从重型USAR救援队重新分级为中型USAR救援队。INSARAG秘书处致以最诚挚的祝贺。",
+    "char_count_en": 306,
+    "char_count_zh": 112
+  },
+  "published_at": "2026-10-13T11:39:39+00:00",
+  "modified_at": "2026-10-13T11:48:54+00:00",
+  "authors": [
+    "INSARAG Secretariat"
+  ],
+  "categories": [
+    "IEC/R News",
+    "Uncategorized"
+  ],
+  "tags": [],
+  "entities": {
+    "countries": [
+      "Austria"
+    ],
+    "regions": [],
+    "organizations": [
+      "INSARAG",
+      "THW",
+      "Technisches Hilfswerk",
+      "IEC"
+    ],
+    "usar_teams": [
+      "GER-01"
+    ],
+    "themes": [
+      "IEC/R classification"
+    ]
+  },
+  "media": [],
+  "attachments": [],
+  "knowledge": {
+    "chunk_strategy": "bilingual-paragraph-400",
+    "chunks": 1,
+    "embedding_model": "embedding-3",
+    "embedding_dim": 1024,
+    "indexed": false
+  },
+  "provenance": {
+    "crawled_at": "2026-10-26T11:00:37.514Z",
+    "crawler": "insarag-crawler/1.0",
+    "http_status": 200,
+    "parser": "wp-rest+html-normalize",
+    "content_sha256": "9e9b084105d493fc25d1074fe5c9c008bfbefe2e25eb301445d3b3a5103b1c63",
+    "source_snapshot": "data/raw/iec-ger-01.json",
+    "translation_status": "done"
+  },
+  "translation": {
+    "method": "deepseek-chat",
+    "alignment": "sentence-1to1",
+    "translated_at": "2026-10-26T11:02:38.562Z"
+  }
+}

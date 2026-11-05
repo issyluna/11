@@ -1,0 +1,101 @@
+{
+  "$schema": "../news_schema.json",
+  "schema_version": "1.0.0",
+  "doc_id": "INSARAG-NEWS-16631",
+  "record_type": "news",
+  "seq": 7,
+  "source": {
+    "publisher": "INSARAG",
+    "publisher_full": "International Search and Rescue Advisory Group (INSARAG), UN OCHA",
+    "site": "https://insarag.org",
+    "section": "Asia-Pacific News",
+    "canonical_url": "https://insarag.org/uncategorized/irnap-china/",
+    "wp_post_id": 16631,
+    "language": "en",
+    "license_note": "版权归 INSARAG / 联合国人道主义事务协调办公室（OCHA）所有，此处仅用于教学与研究。"
+  },
+  "title_en": "IRNAP China",
+  "title_zh": "IRNAP 中国",
+  "slug": "irnap-china",
+  "summary_en": "INSARAG congratulates China, the 10 countries in the world on the successful completion and endorsement of its INSARAG Recognized National Accreditation Process (IRNAP). This achievement highlights China’s strong commitment to INSARAG’s global standards and continuous efforts to enhance international cooperation and preparedness in Urban Search and Rescue (USAR) operations. The INSARAG Secretariat commends the dedication […]",
+  "summary_zh": "INSARAG 祝贺中国——全球第 10 个成功完成并获批其 INSARAG 认可国家认证程序（IRNAP）的国家。这一成就彰显了中国对 INSARAG 全球标准的坚定承诺，以及在城市搜索与救援（USAR）行动中不断加强国际合作与备灾能力的不懈努力。INSARAG 秘书处赞扬整个过程中展现出的奉献精神与专业素养[…]",
+  "body": {
+    "paragraphs_en": [
+      "INSARAG congratulates China, the 10 countries in the world on the successful completion and endorsement of its INSARAG Recognized National Accreditation Process (IRNAP).",
+      "This achievement highlights China’s strong commitment to INSARAG’s global standards and continuous efforts to enhance international cooperation and preparedness in Urban Search and Rescue (USAR) operations.",
+      "The INSARAG Secretariat commends the dedication and professionalism demonstrated throughout the process and looks forward to continued collaboration within our global network."
+    ],
+    "paragraphs_zh": [
+      "INSARAG 祝贺中国——全球第 10 个成功完成并获批其 INSARAG 认可国家认证程序（IRNAP）的国家。",
+      "这一成就彰显了中国对 INSARAG 全球标准的坚定承诺，以及在城市搜索与救援（USAR）行动中不断加强国际合作与备灾能力的不懈努力。",
+      "INSARAG 秘书处赞扬整个过程中展现出的奉献精神与专业素养，并期待在我们全球网络内继续开展合作。"
+    ],
+    "plain_text_en": "INSARAG congratulates China, the 10 countries in the world on the successful completion and endorsement of its INSARAG Recognized National Accreditation Process (IRNAP).\n\nThis achievement highlights China’s strong commitment to INSARAG’s global standards and continuous efforts to enhance international cooperation and preparedness in Urban Search and Rescue (USAR) operations.\n\nThe INSARAG Secretariat commends the dedication and professionalism demonstrated throughout the process and looks forward to continued collaboration within our global network.",
+    "plain_text_zh": "INSARAG 祝贺中国——全球第 10 个成功完成并获批其 INSARAG 认可国家认证程序（IRNAP）的国家。\n\n这一成就彰显了中国对 INSARAG 全球标准的坚定承诺，以及在城市搜索与救援（USAR）行动中不断加强国际合作与备灾能力的不懈努力。\n\nINSARAG 秘书处赞扬整个过程中展现出的奉献精神与专业素养，并期待在我们全球网络内继续开展合作。",
+    "char_count_en": 554,
+    "char_count_zh": 179
+  },
+  "published_at": "2025-12-16T14:21:36+00:00",
+  "modified_at": "2025-12-17T07:07:47+00:00",
+  "authors": [
+    "INSARAG Secretariat"
+  ],
+  "categories": [
+    "Asia-Pacific News",
+    "Uncategorized"
+  ],
+  "tags": [],
+  "entities": {
+    "countries": [
+      "China"
+    ],
+    "regions": [
+      "Asia-Pacific"
+    ],
+    "organizations": [
+      "INSARAG"
+    ],
+    "usar_teams": [],
+    "themes": []
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "https://insarag.org/wp-content/uploads/2025/12/fcd80289-fd58-453e-8fdc-16efc7b241a9.jpg",
+      "local_path": "data/media/INSARAG-NEWS-16631-1.jpg",
+      "alt": "IRNAP China - image 1",
+      "caption": "",
+      "downloaded_bytes": 86434
+    },
+    {
+      "type": "image",
+      "url": "https://insarag.org/wp-content/uploads/2025/12/21c0edbc-d242-4745-8c57-abcd9d50b2b0-1.jpg",
+      "local_path": "data/media/INSARAG-NEWS-16631-2.jpg",
+      "alt": "IRNAP China - image 2",
+      "caption": "",
+      "downloaded_bytes": 104267
+    }
+  ],
+  "attachments": [],
+  "knowledge": {
+    "chunk_strategy": "bilingual-paragraph-400",
+    "chunks": 3,
+    "embedding_model": "embedding-3",
+    "embedding_dim": 1024,
+    "indexed": false
+  },
+  "provenance": {
+    "crawled_at": "2026-10-26T11:00:33.871Z",
+    "crawler": "insarag-crawler/1.0",
+    "http_status": 200,
+    "parser": "wp-rest+html-normalize",
+    "content_sha256": "4a6832d05f2f54ef1ef000ee2e086ae041997c26e15cde8acc9a7fd2c90b4bb5",
+    "source_snapshot": "data/raw/irnap-china.json",
+    "translation_status": "done"
+  },
+  "translation": {
+    "method": "deepseek-chat",
+    "alignment": "sentence-1to1",
+    "translated_at": "2026-10-26T11:02:28.266Z"
+  }
+}

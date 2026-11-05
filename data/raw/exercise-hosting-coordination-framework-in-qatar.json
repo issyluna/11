@@ -1,0 +1,166 @@
+{
+  "id": 18315,
+  "date": "2026-06-03T11:24:28",
+  "date_gmt": "2026-06-03T11:24:28",
+  "guid": {
+    "rendered": "https://insarag.org/?p=18315"
+  },
+  "modified": "2026-08-13T13:54:22",
+  "modified_gmt": "2026-08-13T13:54:22",
+  "slug": "exercise-hosting-coordination-framework-in-qatar",
+  "status": "publish",
+  "type": "post",
+  "link": "https://insarag.org/uncategorized/exercise-hosting-coordination-framework-in-qatar/",
+  "title": {
+    "rendered": "Exercise Hosting Coordination Framework in Qatar"
+  },
+  "content": {
+    "rendered": "\n<p>On 2 June 2026 an Exercise Hosting Coordination Framework between Lekhwiya and INSARAG was signed in preparation for the INSARAG Global Exercise (Qatar, 25 to 29 October 2026). The arrangement was signed by Ambassador Dominik Stillhart, INSARAG Global Chair, and Staff Brigadier Mubarak Sherida Al Kaabi, Assistant Commander for Administration and Supply.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img fetchpriority=\"high\" decoding=\"async\" width=\"1024\" height=\"640\" src=\"https://insarag.org/wp-content/uploads/2026/06/Exercise-Hosting-Coordination-Framework-in-Qatar-1024x640.jpeg\" alt=\"\" class=\"wp-image-18316\" srcset=\"https://insarag.org/wp-content/uploads/2026/06/Exercise-Hosting-Coordination-Framework-in-Qatar-1024x640.jpeg 1024w, https://insarag.org/wp-content/uploads/2026/06/Exercise-Hosting-Coordination-Framework-in-Qatar-300x188.jpeg 300w, https://insarag.org/wp-content/uploads/2026/06/Exercise-Hosting-Coordination-Framework-in-Qatar-768x480.jpeg 768w, https://insarag.org/wp-content/uploads/2026/06/Exercise-Hosting-Coordination-Framework-in-Qatar-1536x960.jpeg 1536w, https://insarag.org/wp-content/uploads/2026/06/Exercise-Hosting-Coordination-Framework-in-Qatar-1200x750.jpeg 1200w, https://insarag.org/wp-content/uploads/2026/06/Exercise-Hosting-Coordination-Framework-in-Qatar.jpeg 1600w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>On 2 June 2026 an Exercise Hosting Coordination Framework between Lekhwiya and INSARAG was signed in preparation for the INSARAG Global Exercise (Qatar, 25 to 29 October 2026). The arrangement was signed by Ambassador Dominik Stillhart, INSARAG Global Chair, and Staff Brigadier Mubarak Sherida Al Kaabi, Assistant Commander for Administration and Supply.</p>\n",
+    "protected": false
+  },
+  "author": 55,
+  "featured_media": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "footnotes": ""
+  },
+  "categories": [
+    1
+  ],
+  "tags": [],
+  "class_list": [
+    "post-18315",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "hentry",
+    "category-uncategorized"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/posts/18315",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/users/55"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/comments?post=18315"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https://insarag.org/wp-json/wp/v2/posts/18315/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 18319,
+        "href": "https://insarag.org/wp-json/wp/v2/posts/18315/revisions/18319"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://insarag.org/wp-json/wp/v2/media?parent=18315"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/categories?post=18315"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://insarag.org/wp-json/wp/v2/tags?post=18315"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "_embedded": {
+    "wp:term": [
+      [
+        {
+          "id": 1,
+          "link": "https://insarag.org/uncategorized/",
+          "name": "Uncategorized",
+          "slug": "uncategorized",
+          "taxonomy": "category",
+          "_links": {
+            "self": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/categories"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/taxonomies/category"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://insarag.org/wp-json/wp/v2/posts?categories=1"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      ],
+      []
+    ]
+  }
+}
